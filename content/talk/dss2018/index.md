@@ -34,12 +34,12 @@ image:
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  #name: Follow
+  #url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: https://www.youtube.com/watch?v=gOn8Po_NPe4
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

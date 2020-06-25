@@ -76,14 +76,12 @@ During my Ph.D., I worked mostly on the connection of deep neural networks to in
 
 In parallel with my Ph.D. studies, I also work as a researcher at the A.I. & data science research team of Intel's Advanced Analytics group. I worked on several projects and domains, including developing deep learning, computer vision, and sensory data solutions for healthcare, manufacturing, and marketing, for both internal and external uses.
 
-In the past, I also worked as a research student at Google Brain, CA, USA. In this position, I explored the generalization ability of DNNs using information theory tools, including applying them to google's products.
+In the past, I worked as a research student at Google Brain, CA, USA. In this position, I explored the generalization ability of DNNs using information theory tools, including applying them to google's products.
 
 I also develop some projects for the Wikimedia Foundation (mostly Wikipedia), like developing OCR and advanced editing abilities.
 
 I did my B.A. in Computer Science and Bioinformatics at the Hebrew University of Jerusalem.
 
-When I have free time, I volunteer as a web developer at The Public Knowledge Workshop, in several projects.
-
-I am primarily interested in machine learning and artificial intelligence, information theory, computational neuroscience models, and Open Source projects.
+When I have free time, I volunteer as a web developer at The Public Knowledge Workshop.
 
 And I also love basketball... 

@@ -5,8 +5,8 @@ authors:
 - admin
 - Libi Feigin
 - Yishai Elyada
--Haim Sompolinsky
--Adi Mizrahi
+- Haim Sompolinsky
+- Adi Mizrahi
 date: "2020-01-01T00:00:00Z"
 doi: ""
 
@@ -37,14 +37,14 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+url_pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6997498/
+#url_code: ''
+#url_dataset: ''
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
+#url_source: ''
+#url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

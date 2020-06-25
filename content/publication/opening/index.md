@@ -18,9 +18,9 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 #publication: In *Source Themes Conference*
 #publication_short: In *STC*
- 
 
-tags:
+# Summarye. An optional shortened abstract.
+summary: We demonstrate the effectiveness of the Information-Plane visualization of DNNs. Our main results are: (i) most of the training epochs in standard DL are spent on compression of the input to efficient representation (ii)
 - Source Themes
 featured: true
 

@@ -72,15 +72,20 @@ user_groups:
 ---
 
 
- In these days, I'm  research scientist at Intel. As part of my role I design and implement different Machine learning algorithms.
+ In these days, I'm a Ph.D. candidate under the supervision of Prof Naftali Tishby and Prof Haim Sompolinsky at the Hebrew University of Jerusalem.
 
-I also do my PhD. in Computer Science and Neuroscience at the Hebrew University of Jerusalem at the Machine Learning Lab under supervision of Prof. Tali Tishby. My thesis is about learning, information and representations in deep neural networks.
+During my Ph.D., I worked mostly on the connection of deep neural networks to information theory. I tried to develop a deeper understating of DNNs based on information theory and to implement it on large scale problems.
 
-I did my B.A in Computer Science and Bioinformatics at Hebrew University of Jerusalem.
-I'm did my final project at the Medical Image Processing Laboratory, which I developed Image Processing machine learning algorithms for automatic Identification and analyzes of MRI scans.
+In parallel with my Ph.D. studies, I also work as a researcher at the A.I. & data science research team of Intel's Advanced Analytics group. I worked on several projects and domains, including developing deep learning, computer vision, and sensory data solutions for healthcare, manufacturing, and marketing, for both internal and external uses.
 
-I also develop some projects for Wikimedia foundation (mostly Wikipedia) like developing OCR and advanced editing abilities.
+In the past, I also worked as a research student at Google Brain, CA, USA. In this position, I explored the generalization ability of DNNs using information theory tools, including applying them to google's products.
 
-When I have a free time I volunteer as web developer at The Public Knowledge Workshop, in several projects.
+I also develop some projects for the Wikimedia Foundation (mostly Wikipedia), like developing OCR and advanced editing abilities.
 
-I especially interesting in machine learning and artificial intelligence, information, Brain- Machine interface and Open Source projects.
+I did my B.A. in Computer Science and Bioinformatics at the Hebrew University of Jerusalem.
+
+When I have free time, I volunteer as a web developer at The Public Knowledge Workshop, in several projects.
+
+I am primarily interested in machine learning and artificial intelligence, information theory, computational neuroscience models, and Open Source projects.
+
+And I also love basketball... 

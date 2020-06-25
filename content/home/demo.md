@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **Academic Kickstart** template!
+This is the site of Ravid Shwartz Ziv
 
 Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
 

@@ -24,7 +24,8 @@ date_format = "Jan 2006"
   location = "Israel"
   date_start = "2013-02-01"
   date_end = ""
-  description = """Developing novel deep learning, computer vision and sensory data solutions for healthcare, manufacturing, sales, and marketing for both internal and external usage.
+  description = """
+  Developing novel deep learning, computer vision and sensory data solutions for healthcare, manufacturing, sales, and marketing for both internal and external usage.
   Selected Projects:
   * Automated testing of graphics units with video anomaly detection.
   * ptimization of the validation process using images transfer learning.
@@ -39,9 +40,11 @@ date_format = "Jan 2006"
   location = "Israel"
   date_start = "2016-01-01"
   date_end = ""
-  description = """Empirical and theoretical study of DNNs based on information-theoretical principles.
+  description = """
+  Empirical and theoretical study of DNNs based on information-theoretical principles.
   
   * Development of a deeper understating of DNNs based on information theory. 
-  * Devise large scale implementation algorithms for the information bottleneck theory."""
+  * Devise large scale implementation algorithms for the information bottleneck theory.
+  """
 
 +++

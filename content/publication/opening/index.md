@@ -1,6 +1,5 @@
 ---
-title: "Opening the Black Box of Deep Neural Networks via Information
-"
+title: "Opening the Black Box of Deep Neural Networks via Information"
 authors:
 - admin
 - Tishby, Naftali

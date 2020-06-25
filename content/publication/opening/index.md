@@ -20,14 +20,14 @@ publication_types: ["2"]
 #publication_short: In *STC*
 
 # Summarye. An optional shortened abstract.
-summary: We demonstrate the effectiveness of the Information-Plane visualization of DNNs. Our main results are -  (i) most of the training epochs in standard DL are spent on compression of the input to efficient representation (ii) The representation compression phase begins when the training errors becomes small and the Stochastic Gradient Decent (SGD) steps change from a fast drift to smaller training error into a stochastic relaxation, constrained by the training error value.(iii) The converged layers lie very close to the Information Bottleneck (IB) theoretical bound, and the maps from the input to any hidden layer and from this hidden layer to the output satisfy the IB self-consistent equations (iv) The training time is dramatically reduced when adding more hidden layers.
+summary: We demonstrate the effectiveness of the Information-Plane visualization of DNNs. We found that (i) most of the training epochs in standard DL are spent on compression of the input to efficient representation (ii) The representation compression phase begins when the training errors becomes small and the Stochastic SGD steps change from a fast drift to smaller training error into a stochastic relaxation, constrained by the training error value.(iii) The converged layers lie very close to the Information Bottleneck (IB) theoretical bound, and the maps from the input to any hidden layer and from this hidden layer to the output satisfy the IB self-consistent equations (iv) The training time is dramatically reduced when adding more hidden layers.
  
 tags:
 - Source Themes
 featured: true
 
 links:
-- name: Custom Link
+#- name: Custom Link
 url_pdf: https://arxiv.org/pdf/1703.00810.pdf
 url_code: 'https://github.com/ravidziv/IDNNs'
 

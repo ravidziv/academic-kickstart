@@ -29,7 +29,7 @@ education:
   - course: PhD in Computer Science and Neuroscience
     institution: The Hebrew University of Jerusalem
     year: 2020
-  - course: MSc  inComputer Science and Neuroscience
+  - course: MSc  in Computer Science and Neuroscience
     institution: The Hebrew University of Jerusalem
     year: 2016
   - course: BSc in Computer Science and Bioinformatics

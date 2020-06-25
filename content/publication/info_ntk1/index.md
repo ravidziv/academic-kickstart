@@ -16,10 +16,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Proceedings of the Symposium on Advances in Approximate Bayesian Inference
+publication: "Proceedings of the Symposium on Advances in Approximate Bayesian Inference"
 #publication_short: In *STC*
 
-In this  work, we study the generalization properties of infinite ensembles of
+abstract: In this  work, we study the generalization properties of infinite ensembles of
 infinitely-wide neural networks. Amazingly, this model family admits tractable calculations
 for many information-theoretic quantities. We report analytical and empirical investigations in the search for signals that correlate with generalization.
 

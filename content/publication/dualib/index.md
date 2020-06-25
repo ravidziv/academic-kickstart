@@ -4,6 +4,9 @@ authors:
 - Zoe Piran 
 - admin
 - Naftali Tishby
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 date: "2019-05-15T00:00:00Z"
 doi: ""
 

@@ -1,7 +1,15 @@
 ---
-title: <Genomic-study-for-maternal-related-traits-in-Santa-Inês-sheep-breed>
+title: Publications
+
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+#   4 = Citation
 view: 4
-date: 2018
-publication_types: 2
-publication: Livestock Science
-abstract: The aim of this study
+
+# Optional header image (relative to `static/img/` folder).
+header:
+  caption: ""
+  image: ""
+---

@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Senior AI & Data Science Researcher"
+  title = "Senior AI and Data Science Researcher"
   company = "Intel"
   company_url = ""
   location = "Israel"
@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Developing novel deep learning, computer vision and sensory data solutions for healthcare, manufacturing, sales, and marketing for both internal and external usage.
-  Selected Projects:
+  Selected Projects
   * Automated testing of graphics units with video anomaly detection.
   * ptimization of the validation process using images transfer learning.
   * Healthcare solutions using physical and virtual sensors.

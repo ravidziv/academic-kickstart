@@ -30,7 +30,8 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+#- 
+#name: Custom Link
 url_pdf: https://arxiv.org/pdf/1703.00810.pdf
 url_code: 'https://github.com/ravidziv/IDNNs'
 url_project: ''

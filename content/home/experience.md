@@ -18,27 +18,38 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Senior AI & Data Science Researcher"
+  company = "Intel"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Israel"
+  date_start = "2013-02-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  description = "Developing novel deep learning, computer vision and sensory data solutions for healthcare, manufacturing, sales, and marketing for both internal and external usage.
+  Selected Projects:
+  * Automated testing of graphics units with video anomaly detection.
+  * ptimization of the validation process using images transfer learning.
+  * Healthcare solutions using physical and virtual sensors.
+  * Gait recognition for smartphones using sensors fusion. 
+
+
+\cventry{2015--Present}{Graduate Researcher}{Advisor: Professor Naftali Tishby}{HUJI, Israel}{}
+{Empirical and theoretical study of DNNs based on information-theoretical principles.%
+\begin{itemize}%
+\item Development of a deeper understating of DNNs based on information theory. 
+\item  Devise large scale implementation algorithms for the information bottleneck theory.
+\end{itemize}
+
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
+  title = "Graduate Researcher"
+  Universty = "The Hebrew University of Jerusalem"
+  Advisor: Professor Naftali Tishby
+  location = "Israel"
   date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  date_end = "2020-09-01"
+  description = """mpirical and theoretical study of DNNs based on information-theoretical principles.
+  
+  * Development of a deeper understating of DNNs based on information theory. 
+  * Devise large scale implementation algorithms for the information bottleneck theory."""
 
 +++

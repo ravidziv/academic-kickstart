@@ -29,8 +29,7 @@ tags:
 featured: true
 
 links:
-#- name: Custom Link
-url: https://arxiv.org/abs/1911.09189
+- url: https://arxiv.org/abs/1911.09189
 url_pdf: https://arxiv.org/pdf/1911.09189.pdf
 url_code: https://github.com/ravidziv/info_ntk
 #url_dataset: '#'

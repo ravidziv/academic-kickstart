@@ -1,7 +1,7 @@
 ---
-title: On the Information Theory of Deep Neural Networks
-event: Data Science Summit
-event_url: https://events.bizzabo.com/DataScienceSummit2018/
+title: Example Talk
+event: Academic Theme Conference
+event_url: https://example.org
 
 location: Tel Aviv
 address:

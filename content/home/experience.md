@@ -24,30 +24,22 @@ date_format = "Jan 2006"
   location = "Israel"
   date_start = "2013-02-01"
   date_end = ""
-  description = "Developing novel deep learning, computer vision and sensory data solutions for healthcare, manufacturing, sales, and marketing for both internal and external usage.
+  description = """Developing novel deep learning, computer vision and sensory data solutions for healthcare, manufacturing, sales, and marketing for both internal and external usage.
   Selected Projects:
   * Automated testing of graphics units with video anomaly detection.
   * ptimization of the validation process using images transfer learning.
   * Healthcare solutions using physical and virtual sensors.
   * Gait recognition for smartphones using sensors fusion. 
-
-
-\cventry{2015--Present}{Graduate Researcher}{Advisor: Professor Naftali Tishby}{HUJI, Israel}{}
-{Empirical and theoretical study of DNNs based on information-theoretical principles.%
-\begin{itemize}%
-\item Development of a deeper understating of DNNs based on information theory. 
-\item  Devise large scale implementation algorithms for the information bottleneck theory.
-\end{itemize}
-
+  """
 
 [[experience]]
   title = "Graduate Researcher"
-  Universty = "The Hebrew University of Jerusalem"
+  company = "The Hebrew University of Jerusalem"
   Advisor: Professor Naftali Tishby
   location = "Israel"
   date_start = "2016-01-01"
-  date_end = "2020-09-01"
-  description = """mpirical and theoretical study of DNNs based on information-theoretical principles.
+  date_end = ""
+  description = """Empirical and theoretical study of DNNs based on information-theoretical principles.
   
   * Development of a deeper understating of DNNs based on information theory. 
   * Devise large scale implementation algorithms for the information bottleneck theory."""

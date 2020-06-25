@@ -36,7 +36,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Graduate Researcher"
   company = "The Hebrew University of Jerusalem"
-  Advisor: Professor Naftali Tishby
+  Advisor= "Professor Naftali Tishby"
   location = "Israel"
   date_start = "2016-01-01"
   date_end = ""

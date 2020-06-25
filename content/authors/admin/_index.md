@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
--bio: Ravid’s research interests lie in the intersection of learning, information and optimization in deep neural networks. Ravid’s main focus is exploring learning via information for both artificial and biological neural network.
+- bio: Ravid’s research interests lie in the intersection of learning, information and optimization in deep neural networks. Ravid’s main focus is exploring learning via information for both artificial and biological neural network.
 Ravid is currently a computational neuroscience PhD candidate at the Hebrew University of Jerusalem at the Machine Learning Lab under the supervision of Prof. Tali Tishby. Ravid received both his B.A and his M.Sc degrees from the Hebrew University of Jerusalem.
 
 interests:

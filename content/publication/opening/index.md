@@ -20,7 +20,10 @@ publication_types: ["2"]
 #publication_short: In *STC*
 
 # Summarye. An optional shortened abstract.
-summary: We demonstrate the effectiveness of the Information-Plane visualization of DNNs. Our main results are: (i) most of the training epochs in standard DL are spent on compression of the input to efficient representation (ii)
+summary: We demonstrate the effectiveness of the Information-Plane visualization of DNNs. 
+
+ 
+tags:
 - Source Themes
 featured: true
 

@@ -35,16 +35,48 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Graduate Researcher"
-  company = "The Hebrew University of Jerusalem"
-  Advisor= "Professor Naftali Tishby"
+  company = "Advisor: Professor Naftali Tishby - The Hebrew University of Jerusalem"
   location = "Israel"
   date_start = "2016-01-01"
   date_end = ""
   description = """
   Empirical and theoretical study of DNNs based on information-theoretical principles.
-  
   * Development of a deeper understating of DNNs based on information theory. 
   * Devise large scale implementation algorithms for the information bottleneck theory.
   """
 
-+++
+[[experience]]
+  title = "Graduate Researcher"
+  company = "Advisor: Professor Haim Sompolinsky - The Hebrew University of Jerusalem"
+  location = "Israel"
+  date_start = "2016-01-01"
+  date_end = ""
+  description = """
+  Perceptual learning framework using DNNs.
+  * Development of models for perceptual learning in DNNs. 
+  * Development of transfer learning algorithms in DNNs which are biologically plausible. 
+  """
+  
+  
+[[experience]]
+  title = "Research Student"
+  company = "Google AI, Host: Dr. Alex Alemi"
+  location = "Mountain View, CA, USA"
+  date_start = "2019-06-01"
+  date_end =  "2020-05-01"
+  description = """
+  Generalization and information in Deep Neural Networks.
+  * Derivation of information-theoretical quantities for infinitely-wide neural networks.
+  * Exploration of the generalization properties of DNNs.
+  """
+  
+  [[experience]]
+  title = "Research Assistant"
+  company = "Advisor: Professor Leo Joskowicz - The Hebrew University of Jerusalem"
+  location = "Israel"
+  date_start = "2012-02-01"
+  date_end =  "2014-02-01"
+  description = """
+  Development of image segmentation algorithms using DNNs used for  extracting medical indicators to detect abnormality in embryos
+  """
+

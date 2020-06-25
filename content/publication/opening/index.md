@@ -30,16 +30,10 @@ tags:
 featured: true
 
 links:
-- #name: Custom Link
-  #url: http://example.org
+- name: Custom Link
 url_pdf: https://arxiv.org/pdf/1703.00810.pdf
 url_code: 'https://github.com/ravidziv/IDNNs'
-#url_dataset: '#'
-#url_poster: '#'
-#url_project: ''
-#url_slides: ''
-#url_source: '#'
-#url_video: '#'
+url_project: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

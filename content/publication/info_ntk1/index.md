@@ -1,5 +1,5 @@
 ---
-title: "Proceedings of the Symposium on Advances in Approximate Bayesian Inference"
+title: "Information in Infinite Ensembles of Infinitely-Wide Neural Networks"
 authors:
 - admin
 - Alexander A Alemi
@@ -19,10 +19,14 @@ publication_types: ["1"]
 publication: Proceedings of the Symposium on Advances in Approximate Bayesian Inference
 #publication_short: In *STC*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+In this  work, we study the generalization properties of infinite ensembles of
+infinitely-wide neural networks. Amazingly, this model family admits tractable calculations
+for many information-theoretic quantities. We report analytical and empirical investigations in the search for signals that correlate with generalization.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We study the generalization properties of infinite ensembles of
+infinitely-wide neural networks. Amazingly, this model family admits tractable calculations
+for many information-theoretic quantities. We report analytical and empirical investigations in the search for signals that correlate with generalization.
 
 tags:
 - Source Themes

@@ -1,4 +1,3 @@
-\cventry{2018}{"Representation Compression in Deep Neural Network"}{Google PhD Fellowship Summit}{Mountain View, California}{USA}{}{}
 ---
 title: Representation Compression in Deep Neural Network
 event: Google PhD Fellowship Summit

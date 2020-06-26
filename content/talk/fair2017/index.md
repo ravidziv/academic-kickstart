@@ -36,7 +36,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: https://pan.baidu.com/s/1i5mxtNB
 url_video: ""
 
 # Markdown Slides (optional).

@@ -1,5 +1,5 @@
 ---
-title: Example Talk
+title: Information in Infinite Ensembles of Infinitely-Wide Neural Networks
 event: 2nd Symposium on Advances in Approximate Bayesian Inference
 event_url: http://approximateinference.org/
 
@@ -8,7 +8,7 @@ address:
   city: Vancouver 
   country: Canada
 
-summary: Finding generalization signals using  information for infinitely-wide neural networks.%
+summary: Finding generalization signals using information for infinitely-wide neural networks.%
 abstract: "Finding generalization signals using  information for infinitely-wide neural networks."
 
 # Talk start and end times.

@@ -55,7 +55,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
-{{% alert note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /alert %}}

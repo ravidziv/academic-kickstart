@@ -8,7 +8,7 @@ address:
   city: Vancouver 
   country: Canada
 
-summary: Finding generalization signals using information for infinitely-wide neural networks.%
+summary: Finding generalization signals using information for infinitely-wide neural networks.
 abstract: "Finding generalization signals using  information for infinitely-wide neural networks."
 
 # Talk start and end times.
@@ -32,9 +32,9 @@ image:
 
 links:
 url_code: ""
-#url_pdf: https://arxiv.org/pdf/1911.09189.pdf
 url_slides: ""
 url_video: ""
+# url_pdf: https://arxiv.org/pdf/1911.09189.pdf
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -54,7 +54,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
-{{% alert note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /alert %}}

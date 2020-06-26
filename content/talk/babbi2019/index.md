@@ -32,7 +32,7 @@ image:
 
 links:
 url_code: ""
-url_slides: "slides.pdf"
+url_slides: slides.pdf
 url_video: ""
 url_pdf: https://arxiv.org/pdf/1911.09189.pdf
 

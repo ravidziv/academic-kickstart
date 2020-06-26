@@ -1,4 +1,3 @@
-\cventry{2017}{"Open the Black Box of Deep Neural Networks"}{Future Leaders of AI Retreat (FLAIR)}{New York University Shanghai}{Shanghai, China}{}{}
 ---
 title: Open the Black Box of Deep Neural Networks
 event: Future Leaders of AI Retreat (FLAIR)

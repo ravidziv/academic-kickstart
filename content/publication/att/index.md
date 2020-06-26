@@ -20,7 +20,7 @@ publication_types: ["1"]
 publication: "NIPS 2018 Workshop on Systems for ML"
 #publication_short: ""
 
-abstract: Lorem 
+abstract: We propose a semi supervised model for detecting anomalies in videos inspiredby the Video Pixel Network [van den Oord et al., 2016]. Our model extends the Convolutional LSTM video encoder part of the VPN with a novel convolutional based attention mechanism. We also modify the Pixel CNN decoder part of the VPN to a frame inpainting task where a partially masked version of the frame to predict is given as input. Our model is shown to be effective in detecting anomalies in videos. This approachcould be a component in applications requiring visual common sense. 
 
 # Summary. An optional shortened abstract.
 summary: We propose a semi supervised model for detecting anomalies in videos inspiredby the Video Pixel Network [van den Oord et al., 2016]. Our model extends the Convolutional LSTM video encoder part of the VPN with a novel convolutional based attention mechanism. We also modify the Pixel CNN decoder part of the VPN to a frame inpainting task where a partially masked version of the frame to predict is given as input. Our model is shown to be effective in detecting anomalies in videos. This approachcould be a component in applications requiring visual common sense.

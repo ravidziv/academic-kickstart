@@ -43,7 +43,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: https://pan.baidu.com/s/1i5mxtNB
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

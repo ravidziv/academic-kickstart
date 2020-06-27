@@ -14,7 +14,7 @@ abstract: "Analysing perceptual learning of pure tones in the auditory cortex. U
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2018-4-28T13:00:00Z"
+date: "2018-4-28T13"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 

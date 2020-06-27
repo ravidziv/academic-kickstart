@@ -28,7 +28,7 @@ publication: "NIPS 2018 Machine Learning for Systems Workshop"
 abstract: We present a deep-learning based system we developed, which performs real-time detection of diverse visual corruptions in videos. It is applied to validating the quality of graphics units in our company. The system is used for several types of content, including movies and 3D graphics. A reference video is not available during this stage of tests, due to the randomness in movie ads, game actions, website updates etc. Developing this system involved challenging data science aspects toenable detection of small distortions with low false alert rates. We describe the full detection system, including the hardware and software aspects, and focus on the modeling approaches used. 
 
 # Summary. An optional shortened abstract.
-summary: A deep-learning based system we developed, which performs real-time detection of diverse visual corruptions in videos. Developing this system involved challenging data science aspects toenable detection of small distortions with low false alert rates. We describe the full detection system, including the hardware and software aspects, and focus on the modeling approaches used. 
+summary: A deep-learning based system, which performs real-time detection of diverse visual corruptions in videos. Developing this system involved challenging data science aspects to enable detection of small distortions with low false alert rates.
 
 tags:
 - Source Themes

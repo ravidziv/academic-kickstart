@@ -26,7 +26,7 @@ publication: "Frontiers in Neural Circuits"
 abstract: Associative learning of pure tones is known to cause tonotopic map expansion in the auditory cortex (ACx), but the function this plasticity sub-serves is unclear. We developed an automated training platform called the Educage, which was used to train mice on a go/no go auditory discrimination task to their perceptual limits, for difficult discriminations among pure tones or natural sounds. Spiking responses of excitatory and inhibitory parvalbumin (PV+) L2/3 neurons in mouse ACx revealed learning-induced overrepresentation of the learned frequencies, as expected from previous literature. The coordinated plasticity of excitatory and inhibitory neurons supports a role for PV+ neurons in homeostatic maintenance of excitation–inhibition balance within the circuit. Using a novel computational model to study auditory tuning curves, we show that overrepresentation of the learned tones does not necessarily improve discrimination performance of the network to these tones. In a separate set of experiments, we trained mice to discriminate among natural sounds. Perceptual learning of natural sounds induced “sparsening” and decorrelation of the neural response, consequently improving discrimination of these complex sounds. This signature of plasticity in A1 highlights its role in coding natural sounds. 
 
 # Summary. An optional shortened abstract.
-summary: Analysing associative learning of pure tones  in the auditory cortex. Spiking responses of excitatory and inhibitory neurons in mouse revealed learning induced overrepresentation of the  learned frequencies. Using a novel computational model to study auditory tuning curves, we show that overrepresentation of the learned tones does not necessarily improve along the training
+summary: Analysing perceptual learning of pure tones in the auditory cortex. Spiking responses in mouse revealed learning induced overrepresentation of the learned frequencies. Using a novel computational model, we show that overrepresentation of the learned tones does not necessarily improve along the training
 
 tags:
 - Source Themes
@@ -66,12 +66,3 @@ projects: []
 slides: example
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

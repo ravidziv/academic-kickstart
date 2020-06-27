@@ -70,18 +70,16 @@ user_groups:
 ---
 
 
- In these days, I'm a Ph.D. candidate under the supervision of Prof Naftali Tishby and Prof Haim Sompolinsky at the Hebrew University of Jerusalem.
+ I'm a Ph.D. candidate under the supervision of Prof Naftali Tishby and Prof Haim Sompolinsky at the Hebrew University of Jerusalem.
 
 During my Ph.D., I worked mostly on the connection of deep neural networks to information theory. I tried to develop a deeper understating of DNNs based on information theory and to implement it on large scale problems.
 
-In parallel with my Ph.D. studies, I also work as a researcher at the A.I. & data science research team of Intel's Advanced Analytics group. I worked on several projects and domains, including developing deep learning, computer vision, and sensory data solutions for healthcare, manufacturing, and marketing, for both internal and external uses.
+In parallel with my studies, I also work as a researcher at the A.I. & data science research team of Intel's Advanced Analytics group. I worked on several projects and domains, including developing deep learning, computer vision, and sensory data solutions for healthcare, manufacturing, and marketing, for both internal and external uses.
 
-In the past, I worked as a research student at Google Brain, CA, USA. In this position, I explored the generalization ability of DNNs using information theory tools, including applying them to google's products.
+In the past, I worked as a research student at Google Brain, CA, USA. In this position, I explored the generalization ability of DNNs using information theory tools.
 
-I also develop some projects for the Wikimedia Foundation (mostly Wikipedia), like developing OCR and advanced editing abilities.
-
-I did my B.A. in Computer Science and Bioinformatics at the Hebrew University of Jerusalem.
+I also develop some projects for the Wikimedia Foundation (mostly Wikipedia), like OCR and advanced editing abilities.
 
 When I have free time, I volunteer as a web developer at The Public Knowledge Workshop.
 
-And I also love basketball... 
+And I also love basketball :) 

@@ -33,11 +33,12 @@ image:
 
 links:
 - icon: slides
-   icon_pack: ai
+   icon_pack: fab
+   name: slides
    link: files/flair_talk.pdf
 url_code: ""
 url_pdf: ""
-url_slides: https://pan.baidu.com/s/1i5mxtNB
+url_slides: files/flair_talk.pdf
 url_video: ""
 
 

@@ -1,9 +1,11 @@
 ---
-title: "Attentioned convolutional lstm inpaintingnetwork for anomaly detection in videos"
+title: "Attentioned Convolutional LSTM Inpaintingv Network for Anomaly Detection in Videos"
 authors:
 - Ben-Ari Itamar
 - admin
-
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 date: "2018-12-01T00:00:00Z"
 doi: ""
 
@@ -18,16 +20,16 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "NIPS 2018 Workshop on Systems for ML"
-#publication_short: ""
+publication_short: "NIPS 2018 Workshop on Systems for ML"
 
-summary: A semi supervised model for detecting anomalies in videos inspiredby the Video Pixel Network. We extend the Convolutional LSTM video encoder part of the VPN with a novel convolutional based attentin. This approach could be a component in applications requiring visual common sense. 
+summary: A semi supervised model for detecting anomalies in videos inspiredby the Video Pixel Network. We extend the Convolutional LSTM video encoder of the VPN with a novel convolutional based attention. This approach could be a component in applications requiring visual common sense. 
 
 # Summary. An optional shortened abstract.
 abstract: We propose a semi supervised model for detecting anomalies in videos inspiredby the Video Pixel Network [van den Oord et al., 2016]. Our model extends the Convolutional LSTM video encoder part of the VPN with a novel convolutional based attention mechanism. We also modify the Pixel CNN decoder part of the VPN to a frame inpainting task where a partially masked version of the frame to predict is given as input. Our model is shown to be effective in detecting anomalies in videos. This approachcould be a component in applications requiring visual common sense.
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 # links:
 # - name: ""

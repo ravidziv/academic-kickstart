@@ -3,7 +3,7 @@ title: Open the Black Box of Deep Neural Networks
 event: Future Leaders of AI Retreat (FLAIR)
 event_url: https://ai-flair.org/
 
-location: New York University Shanghai
+location: Future Leaders of AI Retreat (FLAIR), New York University Shanghai, China
 address:
   city: Shanghai
   country: China
@@ -14,7 +14,7 @@ abstract: "Despite numerous breakthroughs, Deep Neural Networks (DNNS) are often
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2017-12-28T13:00:00Z"
+date: "2017-12-28"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 

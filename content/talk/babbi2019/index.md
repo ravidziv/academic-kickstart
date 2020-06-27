@@ -3,7 +3,7 @@ title: Information in Infinite Ensembles of Infinitely-Wide Neural Networks
 event: 2nd Symposium on Advances in Approximate Bayesian Inference
 event_url: http://approximateinference.org/
 
-location: Pan Pacific Hotel
+location: 2nd Symposium on Advances in Approximate Bayesian Inference, Vancouver, Canada
 address:
   city: Vancouver 
   country: Canada
@@ -13,7 +13,7 @@ abstract: "Finding generalization signals using  information for infinitely-wide
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-12-01T13:00:00Z"
+date: "2019-12-08"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
@@ -32,7 +32,7 @@ image:
 
 links:
 url_code: ""
-url_slides: slides.pdf
+url_slides: files/slides_babi2019.pdf
 url_video: ""
 url_pdf: https://arxiv.org/pdf/1911.09189.pdf
 

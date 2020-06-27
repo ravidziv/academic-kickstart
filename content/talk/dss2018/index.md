@@ -3,7 +3,7 @@ title: On the Information Theory of Deep Neural Networks
 event: Data Science Summit
 event_url: https://events.bizzabo.com/DataScienceSummit2018/
 
-location: Tel Aviv Convention Center
+location: Data Science Summit, Tel Aviv, Israel
 address:
   city: Tel Aviv
   country: Israel
@@ -34,7 +34,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: files/talk_dss_2018.pdf
 url_video: https://www.youtube.com/watch?v=gOn8Po_NPe4
 
 # Markdown Slides (optional).

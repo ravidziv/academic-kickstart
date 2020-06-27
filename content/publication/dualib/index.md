@@ -7,6 +7,7 @@ authors:
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
+-  ""
 date: "2019-05-15T00:00:00Z"
 doi: ""
 
@@ -26,19 +27,19 @@ publication_types: ["3"]
 abstract: We present a new framework, the Dual Information Bottleneck (dualIB), which resolves some of the known drawbacks of the Information Bottleneck. We provide a theoretical analysis of the dualIB framework and  solving for the structure of its solutions. To approach large scale problems, we present a novel variational formulation of the dualIB for Deep Neural Networks. In experiments on several data-sets, we compare it to a variational form of the IB.
 
 # Summary. An optional shortened abstract.
-summary: A new framework, which resolves some of the known drawbacks of the Information Bottleneck. We provide a theoretical analysis of the dualIB framework and  solving for the structure of its solutions and present a novel variational formulation for DNNs.
+summary: A new framework, which resolves some of the known drawbacks of the Information Bottleneck. We provide a theoretical analysis of the framework, finding the structure of its solutions and present a novel variational formulation for DNNs.
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 links:
 #name: Custom Link
 #url: http://example.org
 url_pdf: https://arxiv.org/pdf/2006.04641.pdf
 url_code: https://github.com/ravidziv/dual_IB
-u#rl_dataset: '#'
-u#rl_poster: '#'
+#url_dataset: '#'
+#url_poster: '#'
 #url_project: ''
 #url_slides: ''
 #url_source: '#'

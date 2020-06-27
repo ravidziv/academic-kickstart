@@ -3,10 +3,10 @@ title: Representation Compression in Deep Neural Network
 event: Google PhD Fellowship Summit
 event_url: https://sites.google.com/view/phd-fellowship-summit-2018/home?authuser=0
 
-location: Tel Aviv Convention Center
+location: Google PhD Fellowship Summit, Mountain View, CA, USA
 address:
-  city: Tel Aviv
-  country: Israel
+  city: Mountain View, CA
+  country: USA
   
 summary: An information theoretic viewpoint on the behavior of deep networks optimization processes and their generalization abilities by the information plane and how compression can help.
 
@@ -15,7 +15,7 @@ abstract: "Understanding the groundbreaking performance of Deep Neural Networks 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2018-12-28T13:00:00Z"
+date: "2018-08-29"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 

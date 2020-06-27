@@ -35,8 +35,8 @@ image:
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: slides
+  url: files/flair_talk.pdf
 url_code: ""
 url_pdf: ""
 url_slides: files/flair_talk.pdf

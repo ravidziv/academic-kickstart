@@ -8,8 +8,8 @@ address:
   city: Munich
   country: Germany
   
-summary: """"Analysing perceptual learning of pure tones in the auditory cortex. Using a novel computational model, we show that overrepresentation of the learned tones does not necessarily improve along the training """
-abstract: """"Analysing perceptual learning of pure tones in the auditory cortex. Using a novel computational model, we show that overrepresentation of the learned tones does not necessarily improve along the training """
+summary: """Analysing perceptual learning of pure tones in the auditory cortex. Using a novel computational model, we show that overrepresentation of the learned tones does not necessarily improve along the training """
+abstract: """Analysing perceptual learning of pure tones in the auditory cortex. Using a novel computational model, we show that overrepresentation of the learned tones does not necessarily improve along the training """
 
 
 # Talk start and end times.
@@ -32,9 +32,10 @@ image:
   focal_point: Right
 
 links:
-- icon: slides
-   icon_pack: ai
-   link: files/MaxPlacnMeeting2018.pdf
+- icon: twitter
+  icon_pack: ai
+  name: slides
+  url: files/MaxPlacnMeeting2018.pdf
 url_code: ""
 url_pdf: ""
 url_slides: files/MaxPlacnMeeting2018.pdf

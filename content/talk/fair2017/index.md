@@ -32,7 +32,7 @@ image:
   focal_point: Right
 
 links:
-- icon: slides
+- icon: twitter
    icon_pack: fab
    name: slides
    link: files/flair_talk.pdf

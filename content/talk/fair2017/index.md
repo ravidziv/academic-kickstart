@@ -35,7 +35,7 @@ image:
 links:
 - icon: twitter
   icon_pack: ai
-  name: slides
+  name: Slides
   url: files/flair_talk.pdf
 url_code: ""
 url_pdf: ""

@@ -28,6 +28,10 @@ featured: true
 
 links:
 #- name: Custom Link
+- icon: twitter
+  icon_pack: ai
+  name: Article
+  url:   https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/
 url_pdf: https://arxiv.org/pdf/1703.00810.pdf
 url_code: https://github.com/ravidziv/IDNNs
 

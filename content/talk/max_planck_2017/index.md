@@ -3,7 +3,7 @@ title: Analysis and Theory of Perceptual Learning in Auditory Cortex
 event: Max Planck - Hebrew University Center for Sensory Processing of the Brain in Action meeting
 event_url: ""
 
-location: Max Planck Institute
+location: MMax Planck - Hebrew University Center for Sensory Processing of the Brain in Action meeting, Munich, Germany
 address:
   city: Munich
   country: Germany
@@ -14,7 +14,7 @@ abstract: "Analysing perceptual learning of pure tones in the auditory cortex. U
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2018-4-28T13"
+date: "2018-4-28"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
@@ -34,7 +34,7 @@ image:
 links:
 - icon: twitter
   icon_pack: ai
-  name: slides
+  name: Slides
   url: files/MaxPlacnMeeting2018.pdf
 url_code: ""
 url_pdf: ""

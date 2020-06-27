@@ -3,7 +3,7 @@ title: "Sequence Modeling Using a Memory Controller Extension for LSTM"
 authors:
 - admin
 -  Ben-Ari Itamar
-date: "2017-010-01T00:00:00Z"
+date: "2017-12-01"
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -23,7 +23,7 @@ publication: NIPS 2017 Time Series Workshop
 publication_short: NIPS 2017 Time Series Workshop
 abstract: "The Long Short-term Memory (LSTM) recurrent neural network is a powerful model for time series forecasting and various temporal tasks. In this work we extend the standard LSTM architecture by augmenting it with an additional gate which produces a memory control vector signal inspired by the Differentiable Neural Computer (DNC) model. This vector is fed back to the LSTM instead of the original output prediction. By decoupling the LSTM prediction from its role as a memory controller we allow each output to specialize in its own task. The result is that our LSTM prediction is dependent on its memory state and not the other way around (as in standard LSTM). We demonstrate our architecture on two time-series forecast tasks and show that our model achieves up to 8% lower loss than the standard LSTM model."
 # Summarye. An optional shortened abstract.
-summary: "Ee extend the standard LSTM architecture by augmenting it with an additional gate which produces a memory control vector signal. This vector is fed back to the LSTM instead of the original output prediction. By decoupling the LSTM prediction from its role as a memory controller we allow each output to specialize in its own task."
+summary: "We extend the standard LSTM architecture by augmenting it with an additional gate which produces a memory control vector signal. This vector is fed back to the LSTM instead of the original output prediction. By decoupling the LSTM prediction from its role as a memory controller we allow each output to specialize in its own task."
  
 tags:
 - Source Themes

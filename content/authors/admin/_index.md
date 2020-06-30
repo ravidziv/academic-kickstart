@@ -80,6 +80,6 @@ Recently I had the opportunity to work as a research student at Google Brain, CA
 
 In the past I was also involved in develop some projects for Wikipedia.
 
-In my free, I volunteer as a developer at The Public Knowledge Workshop.
+In my free time, I volunteer as a developer at The Public Knowledge Workshop.
 
 And I love basketball :) 

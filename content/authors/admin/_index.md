@@ -82,4 +82,4 @@ In the past I was also involved in develop some projects for Wikipedia.
 
 In my free, I volunteer as a developer at The Public Knowledge Workshop.
 
-And I also love basketball :) 
+And I love basketball :) 

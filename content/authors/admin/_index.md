@@ -82,4 +82,6 @@ In the past, I was also involved in developing some projects for Wikipedia.
 
 In my free, I volunteer as a developer at The Public Knowledge Workshop.
 
+My research is supported by a Google PhD Fellowship.
+
 And I love basketball :) 

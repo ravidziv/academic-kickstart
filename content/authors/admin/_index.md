@@ -70,18 +70,18 @@ user_groups:
 ---
 
 
-I'm a Ph.D. candidate under the supervision of Prof Naftali Tishby and Prof Haim Sompolinsky at the Hebrew University of Jerusalem.
+I'm a CDS Faculty Fellow at the NYU Center for Data Science, where I mostly work with Andrew Gordon Wilson and Yann Lecun on Bayesian deep networks, information theory, and self-supervised learning.
 
-In my Ph.D., I focused on the connection between deep neural networks (DNNs) and information theory. I tried to develop a deeper understating of DNNs based on information theory and to implement it over large scale problems.
+I completed my Ph.D. under the supervision of Prof Naftali Tishby and Prof Haim Sompolinsky at the Hebrew University of Jerusalem. In my Ph.D., I focused on the connection between deep neural networks (DNNs) and information theory. I tried to develop a deeper understating of DNNs based on information theory and to implement it over large scale problems. I recived the Google PhD Fellowship.
 
-In parallel to my studies, I work as a researcher at the A.I. & data science research team of Intel's Advanced Analytics group. There, I am involved in several projects. Mainly, development of deep learning, computer vision, and sensory data solutions for healthcare, manufacturing, and marketing, for both internal and external uses.
 
-Recently I had the opportunity to work as a research student at Google Brain, CA, USA. In this position, I explored the generalization ability of DNNs using information theory tools.
+In parallel, I work as a researcher at the A.I. & data science research team of Intel's Advanced Analytics group. There, I am involved in several projects. Mainly, development of deep learning, computer vision, and sensory data solutions for healthcare, manufacturing, and marketing, for both internal and external uses.
+
+In 2019-2020 I had the opportunity to work as a research student at Google Brain, CA, USA. In this position, I explored the generalization ability of DNNs using information theory tools.
 
 In the past, I was also involved in developing some projects for Wikipedia.
 
 In my free, I volunteer as a developer at The Public Knowledge Workshop.
 
-My research is supported by a Google PhD Fellowship.
 
 And I love basketball :) 

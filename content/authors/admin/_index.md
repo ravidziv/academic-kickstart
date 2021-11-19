@@ -14,7 +14,7 @@ role: Research scientist & PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: Intel and the Hebrew University of Jerusalem
+- name: New York University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -23,12 +23,13 @@ interests:
 - Artificial Intelligence
 - Computational Neuroscience
 - Information Theory
+- Bayesian deep networks
 
 education:
   courses:
   - course: PhD in Computer Science and Neuroscience
     institution: The Hebrew University of Jerusalem
-    year: 2020
+    year: 2021
   - course: MSc  in Computer Science and Neuroscience
     institution: The Hebrew University of Jerusalem
     year: 2016

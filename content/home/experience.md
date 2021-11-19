@@ -17,6 +17,16 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Reserach Fellow"
+  company = "NYU, Center for Data Science"
+  location = "New York, NY, USA"
+  date_start = "2021-09-01"
+  description = """
+  Stuying information thoery, batsian deep networks and self supervised represenastion.
+  """
+  
 [[experience]]
   title = "Senior AI and Data Science Researcher"
   company = "Intel"

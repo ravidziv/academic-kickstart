@@ -2,8 +2,7 @@
 ---
 title: Compression in deep learning, an information theory perspective
 event: NYU CDS Seminar
-event_url: https://nyu.zoom.us/rec/play/JL-R6MVnnUMKU93Bkq-dnLIvmpjuzrDWiMBRhfLnRpm61T5yEkc_FyYauYi-yB0n9kYx8QzbZSs6Icgx.8oTucKGhKglcKgAF?startTime=1632328363000&_x_zm_rtaid=pEPLVdUPTpKCvM91LDu66Q.1637379798424.f917c9ad44ce18b0de5f030adf1d19ed&_x_zm_rhtaid=999
-
+event_url: 
 location: NYU Center for Data Science
 address:
   city:  New York, NY

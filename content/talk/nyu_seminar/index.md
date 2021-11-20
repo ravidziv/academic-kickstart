@@ -8,7 +8,7 @@ address:
   city:  New York, NY
   country: USA
   
-summary: "While DNNs have achieved many breakthroughs, our understanding of their internal structure, optimization process, and generalization is poor, and we often treat them as black boxes. We attempt to resolve these issues by suggesting that DNNs learn to optimize the Information Bottleneck (IB) principle - the tradeoff between information compression and prediction quality. In the first part of the talk, I presented this approach, showing an analytical and numerical study of DNNs in the information plane. This analysis reveals how the training process compresses the input to an optimal, efficient representation.  I discussed recent works inspired by this analysis and show how we can apply them to real-world problems. In the second part of the talk, I will discuss information in infinitely-wide neural networks using recent results in Neural Tangent Kernels (NTK) networks. The NTK allows us to derive many tractable information-theoretic quantities. By utilizing these derivations, we can do an empirical search to find the important information-theoretic quantities that affect generalization in DNNs.  I aslo presented the Dual Information Bottleneck (dualIB) framework, to find an optimal representation that resolves some of the drawbacks of the original IB. A theoretical analysis of the dualIB shows the structure of its solution and its ability to preserve the original distribution's statistics. Within this, we focused on the variational form of the dualIB, allowing its application to DNNs."
+summary: ddd
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

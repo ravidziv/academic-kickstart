@@ -1,4 +1,3 @@
-
 ---
 title: Compression in deep learning-  an information theory perspective
 event: NYU CDS Seminar

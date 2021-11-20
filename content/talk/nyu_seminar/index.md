@@ -31,13 +31,13 @@ image:
 
 
 links:
-- icon: twitter
-  icon_pack: ai
-  name: Slides
-  url: files/nyu_talk.pdf
+#- icon: twitter
+#  #icon_pack: ai
+#  #name: Slides
+#  # url: files/nyu_talk.pdf
 url_code: ""
 url_pdf: ""
-#url_slides: files/nyu_talk.pdf
+# url_slides: files/nyu_talk.pdf
 url_video: https://nyu.zoom.us/rec/play/5N5tweJ63M12SCrb8SlpwIKG4pvksB3F0JNK3s3vqrUo6LTk_NbobRg1b_ZbQR7zHGKDZ9Av1DtBK7G0.AgM189k5W1YRRIi7?startTime=1632328363000&_x_zm_rtaid=pEPLVdUPTpKCvM91LDu66Q.1637379798424.f917c9ad44ce18b0de5f030adf1d19ed&_x_zm_rhtaid=999
 
 
@@ -46,7 +46,7 @@ url_video: https://nyu.zoom.us/rec/play/5N5tweJ63M12SCrb8SlpwIKG4pvksB3F0JNK3s3v
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: https://pan.baidu.com/s/1i5mxtNB
+# slides: https://pan.baidu.com/s/1i5mxtNB
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

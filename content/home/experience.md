@@ -19,12 +19,12 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Reserach Fellow"
+  title = "Research Fellow"
   company = "NYU, Center for Data Science"
   location = "New York, NY, USA"
   date_start = "2021-09-01"
   description = """
-  Stuying information thoery, batsian deep networks and self supervised represenastion.
+  Studying information theory, Bayesian deep networks, and representations of self-supervised learning.
   """
   
 [[experience]]

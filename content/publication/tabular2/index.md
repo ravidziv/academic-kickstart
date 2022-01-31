@@ -3,11 +3,11 @@ title: "Tabular Data: Deep Learning is Not All You Need"
 authors:
 - admin
 - Armon Amitai
-date: "2021-01-01"
+date: "2017-01-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-#publishDate: "2020-01-01T00:00:00Z"
+#publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

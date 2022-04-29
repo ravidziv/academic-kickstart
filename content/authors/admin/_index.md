@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Research scientist & PhD Student
+role: Faculty Fellow
 
 # Organizations/Affiliations
 organizations:

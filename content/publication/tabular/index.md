@@ -36,7 +36,7 @@ url_pdf: https://arxiv.org/abs/2106.03253.pdf
 #url_project: ''
 #url_slides: ''
 #url_source: '#'
-#url_video: '#'
+url_video: https://www.youtube.com/watch?v=vHufWWgDYTI
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -33,7 +33,7 @@ featured: true
 
 links:
 #- url: https://arxiv.org/abs/2106.03253
-url_pdf: https://arxiv.org/abs/2106.03253
+url_pdf: https://arxiv.org/abs/2205.10279
 url_code:  https://github.com/hsouri/BayesianTransferLearning
 #url_dataset: '#'
 #url_poster: '#'

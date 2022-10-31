@@ -34,13 +34,13 @@ featured: true
 links:
 #- url: https://arxiv.org/abs/2106.03253
 url_pdf: https://arxiv.org/abs/2106.03253
-#url_code: 
+url_code:  https://github.com/hsouri/BayesianTransferLearning
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
 #url_slides: ''
 #url_source: '#'
-#url_video: '#'
+url_video: 'https://slideslive.com/38988200/pretrain-your-loss-easy-bayesian-transfer-learning-with-informative-prior'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

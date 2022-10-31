@@ -19,12 +19,12 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Research Fellow"
+  title = "Faculty Fellow"
   company = "NYU, Center for Data Science"
   location = "New York, NY, USA"
   date_start = "2021-09-01"
   description = """
-  Studying information theory, Bayesian deep networks, and representations of self-supervised learning.
+  Studying information theory, Bayesian deep networks, and representations of self-supervised learning models.
   """
   
 [[experience]]
@@ -48,7 +48,7 @@ date_format = "Jan 2006"
   company = "Advisor: Professor Naftali Tishby - The Hebrew University of Jerusalem"
   location = "Israel"
   date_start = "2016-01-01"
-  date_end = ""
+  date_end = "2021-08-01"
   description = """
   Empirical and theoretical study of DNNs based on information-theoretical principles.
   * Development of a deeper understating of DNNs based on information theory. 
@@ -60,7 +60,7 @@ date_format = "Jan 2006"
   company = "Advisor: Professor Haim Sompolinsky - The Hebrew University of Jerusalem"
   location = "Israel"
   date_start = "2016-01-01"
-  date_end = ""
+  date_end = "2021-08-01"
   description = """Development of models for perceptual and transfer learning in DNNs, which are biologically plausible. """
   
   

@@ -15,7 +15,7 @@ role: Assistant Professor and Faculty Fellow
 # Organizations/Affiliations
 organizations:
 - name: New York University
-  url: ""
+  url: "ravidziv@gmail.com"
 
 # Short bio (displayed in user profile at end of posts)
 

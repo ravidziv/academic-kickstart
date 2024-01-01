@@ -18,7 +18,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "ICML 2022: Pre-training: Perspectives, Pitfalls, and Paths Forward workshop"
-publication_short: In *ICML 2022: Pre-training: Perspectives, Pitfalls, and Paths Forward workshop*
+publication_short: "In ICML 2022: Pre-training: Perspectives, Pitfalls, and Paths Forward workshop"
 abstract: "In this paper, we examine self-supervised learning methods, particularly VICReg, to provide an information-theoretical understanding of their construction. As a first step, we demonstrate how information-theoretic quantities can be obtained for a deterministic network, offering a possible alternative to prior work that relies on stochastic models. This enables us to demonstrate how VICReg can be (re)discovered from first principles and its assumptions about data distribution. Furthermore, we empirically demonstrate the validity of our assumptions, confirming our novel understanding of VICReg. Finally, we believe that the derivation and insights we obtain can be generalized to many other SSL methods, opening new avenues for theoretical and practical understanding of SSL and transfer learning."
 # Summary. An optional shortened abstract.
 summary: "We examine self-supervised learning methods to provide an information-theoretical understanding of their construction. As a first step, we demonstrate how information-theoretic quantities can be obtained for a deterministic network. This enables us to demonstrate how SSL methods can be (re)discovered from first principles and thier assumptions about the data distribution. Furthermore, we empirically demonstrate the validity of our assumptions, confirming our novel understanding."

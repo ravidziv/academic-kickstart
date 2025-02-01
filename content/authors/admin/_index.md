@@ -23,7 +23,7 @@ interests:
 - Artificial Intelligence
 - Computational Neuroscience
 - Information Theory
-- Bayesian deep networks
+- Large language models
 
 education:
   courses:

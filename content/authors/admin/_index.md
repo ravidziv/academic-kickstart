@@ -70,14 +70,9 @@ user_groups:
 - Visitors
 ---
 
-I'm an Assistant Professor and a Fellow at NYU Center for Data Science, New York, where I'm working with Andrew Gordon Wilson and Yann LeCun to understand and develop better models using Bayesian deep networks, information theory, and self-supervised learning.
-
-I completed my Ph.D. under Prof Naftali Tishby's supervision  at the Hebrew University of Jerusalem, where I also worked with Prof. Haim Sompolinsky. In my Ph.D., I focused on the connection between deep neural networks and information theory. I tried to develop a deeper understating of deep networks based on information theory and implement it over large-scale problems. I received the Google Ph.D. Fellowship.
-
-Additionally, I am a researcher at Intel's Artificial Intelligence Research Group. There, I am involved in the development of deep learning, computer vision, and sensory data solutions for healthcare, manufacturing, and marketing, both internally and externally.
-
-In 2019-2020, I worked at Google Brain, CA, USA, exploring DNN generalization using information theory tools.
-
-In the past, I have also been involved in several Wikipedia projects.  I volunteer at The Public Knowledge Workshop in my spare time.
-
-And I also enjoy playing basketball. 
+Hi! I'm an Assistant Professor and Faculty Fellow at NYU's Center for Data Science, where I collaborate with pioneers in the field to advance our understanding of Large Language Models (LLMs) and develop innovative approaches for model efficiency and compression. My passion lies at the intersection of foundational research and practical impact – I work to develop theoretical insights that can be translated into real-world improvements in AI systems.
+My research spans multiple aspects of LLMs, from analyzing their representations through an information-theoretic lens to developing novel sampling techniques for more creative and coherent outputs. I'm particularly focused on representation learning, efficiency, compression, and model personalization, always seeking ways to bridge the gap between theoretical advances and practical applications. This work in self-supervised learning and LLMs has led to significant improvements in how we can leverage unlabeled data to enhance model performance and understanding.
+Currently, I also lead AI research initiatives at Wand AI, where we're pushing the boundaries of LLM personalization and adaptation. By combining theoretical insights with practical engineering, we've developed techniques that significantly reduce computational costs while maintaining model performance. This dual role in academia and industry allows me to pursue both innovative research and its real-world implementation, ensuring our theoretical advances translate into tangible improvements in AI systems.
+My work has been featured in prestigious venues like NeurIPS, ICLR, and ICML, with some of my foundational research on neural networks highlighted in Quanta Magazine and Wired. I completed my Ph.D. in Computational Neuroscience at the Hebrew University of Jerusalem under Naftali Tishby and Haim Sompolinsky, where I explored the deep connections between information theory and neural networks. This work was supported by the Google Ph.D. Fellowship and has influenced our understanding of how deep networks learn and compress information.
+Previously, I've held research positions at Intel, where I worked on everything from infinitely-wide neural networks to practical applications in healthcare and manufacturing. My early career includes contributions to Wikipedia's machine learning projects, reflecting my commitment to making knowledge more accessible.
+When I'm not diving into AI, I enjoy playing basketball and contributing to open-source projects that promote public knowledge accessibility.

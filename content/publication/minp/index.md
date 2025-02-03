@@ -1,13 +1,12 @@
 ---
 title: "Turning Up the Heat: Min-p Sampling for Creative and Coherent LLM Outputs"
 authors:
+- Minh Nguyen Nhat
+- Baker Andrew
+- Neo Clement
+- Roush Allen
+- Kirsch Andreas
 - admin
-- Minh, Nguyen Nhat
-- Baker, Andrew
-- Neo, Clement
-- Roush, Allen
-- Kirsch, Andreas
-- Shwartz-Ziv, Ravid
 date: "2025-01-01"
 doi: ""
 
@@ -36,7 +35,7 @@ tags:
 featured: true
 
 links:
-url_pdf: 
+url_pdf: https://arxiv.org/abs/2407.01082
 #url_code: 
 #url_dataset: '#'
 #url_poster: '#'

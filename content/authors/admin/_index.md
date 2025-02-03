@@ -10,13 +10,13 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Research scientist, Assistant Professor and Faculty Fellow,
+# role: Senior Research scientist, Assistant Professor and Faculty Fellow,
 
 # Organizations/Affiliations
 organizations:
-- name: Center for Data Science, New York University
+- name: Assistant Professor and Faculty Fellow, Center for Data Science, New York University
   url: ""
-- name: Wand AI
+- name: Senior Research scientist, Wand AI
   url: ""
 
 # Short bio (displayed in user profile at end of posts)

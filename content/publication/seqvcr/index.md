@@ -1,5 +1,3 @@
-I'll help adjust the format to match your other paper. I'll organize it in the same structured way while fixing any typos in the text:
-
 ---
 title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
 authors:

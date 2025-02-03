@@ -81,8 +81,6 @@ My research bridges fundamental theoretical understanding with practical applica
 ## Notable Achievements
 
 * Pioneer in applying information theory to neural networks, with seminal work featured in Quanta Magazine and Wired
-* Led development of LiveBench, a challenging contamination-free LLM benchmark
-* Achieved 60% reduction in computational costs through novel LLM personalization techniques
 * Published extensively in top-tier venues (NeurIPS, ICLR, ICML)
 * Google PhD Fellowship recipient (2018-2021)
 * Best Paper Award, Information Fusion journal (2023)

@@ -1,5 +1,3 @@
-I'll format this paper according to the academic website structure:
-
 ---
 title: "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset"
 authors:

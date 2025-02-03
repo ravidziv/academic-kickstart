@@ -1,6 +1,3 @@
-
-I'll format this paper according to the academic website structure:
-
 ---
 title: "Turning Up the Heat: Min-p Sampling for Creative and Coherent LLM Outputs"
 authors:

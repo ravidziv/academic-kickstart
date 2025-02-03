@@ -1,13 +1,12 @@
 ---
 title: "Seq-VCR: Preventing Collapse in Intermediate Transformer Representations for Enhanced Reasoning"
 authors:
+- Arefin Md Rifat
+- Subbaraj Gopeshh
+- Gontier Nicolas
+- LeCun Yann
+- Rish Irina
 - admin
-- Arefin, Md Rifat
-- Subbaraj, Gopeshh
-- Gontier, Nicolas
-- LeCun, Yann
-- Rish, Irina
-- Shwartz-Ziv, Ravid
 - Pal, Christopher
 date: "2024-11-04"
 doi: ""
@@ -37,7 +36,7 @@ tags:
 featured: true
 
 links:
-url_pdf: 
+url_pdf: https://arxiv.org/abs/2411.02344
 #url_code: 
 #url_dataset: '#'
 #url_poster: '#'

@@ -1,17 +1,16 @@
 ---
 title: "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset"
 authors:
+- Roush Allen
+- Shabazz Yusuf
+- Balaji Arvind
+- Zhang Peter
+- Mezza Stefano
+- Zhang Markus
+- Basu Sanjay
+- Vishwanath Sriram
+- Fatemi Mehdi
 - admin
-- Roush, Allen
-- Shabazz, Yusuf
-- Balaji, Arvind
-- Zhang, Peter
-- Mezza, Stefano
-- Zhang, Markus
-- Basu, Sanjay
-- Vishwanath, Sriram
-- Fatemi, Mehdi
-- Shwartz-Ziv, Ravid
 date: "2024-06-20"
 doi: ""
 

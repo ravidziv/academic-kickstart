@@ -37,9 +37,8 @@ date_format = "Jan 2006"
   date_start = "2023-01-01"
   date_end = ""
   description = """
-  * Develop novel LLM personalization techniques reducing computational costs by 60%
-  * Pioneer efficient adaptation methods for LLMs, creating new benchmarks
-  * Lead research in multi-agent systems and user-centric search
+  * Develop novel LLM personalization techniques 
+  * Pioneer efficient adaptation methods for LLMs
   * Direct end-to-end development from research prototypes to production
   """
 
@@ -51,7 +50,6 @@ date_format = "Jan 2006"
   date_end = "2023-12-31"
   description = """
   * Led development of AI algorithms focusing on LLMs and RAG systems
-  * Implemented document question-answering systems using fine-tuned LLMs
   * Optimized validation processes for automated code validation
   * Collaborated with cross-functional teams on tabular data solutions
   """

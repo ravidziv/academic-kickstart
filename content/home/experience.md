@@ -4,7 +4,6 @@ widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
-
 title = "Experience"
 subtitle = ""
 
@@ -19,69 +18,77 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Faculty Fellow"
+  title = "Assistant Professor and Faculty Fellow"
   company = "NYU, Center for Data Science"
-  location = "New York, NY, USA"
+  location = "New York, NY"
   date_start = "2021-09-01"
-  description = """
-  Studying information theory, Bayesian deep networks, and representations of self-supervised learning models.
-  """
-  
-[[experience]]
-  title = "Senior AI and Data Science Researcher"
-  company = "Intel"
-  company_url = ""
-  location = "Israel"
-  date_start = "2013-02-01"
   date_end = ""
   description = """
-  Developing novel deep learning, computer vision and sensory data solutions for healthcare, manufacturing, sales, and marketing for both internal and external usage.
-  Selected Projects
-  * Automated testing of graphics units with video anomaly detection.
-  * Optimization of the validation process using images transfer learning.
-  * Healthcare solutions using physical and virtual sensors.
-  * Gait recognition for smartphones using sensors fusion. 
+  * Lead research initiatives in LLMs, focusing on model efficiency, compression techniques, and novel benchmarking frameworks
+  * Pioneer novel approaches for analyzing LLM representations and information flow
+  * Direct research in representation learning through information-theoretic lens
+  * Develop and teach graduate-level courses in Advanced Machine Learning and Deep Learning
   """
 
 [[experience]]
-  title = "Graduate Researcher"
-  company = "Advisor: Professor Naftali Tishby - The Hebrew University of Jerusalem"
-  location = "Israel"
-  date_start = "2016-01-01"
-  date_end = "2021-08-01"
+  title = "Senior AI Researcher & Team Lead"
+  company = "Wand AI"
+  location = "New York, NY"
+  date_start = "2023-01-01"
+  date_end = ""
   description = """
-  Empirical and theoretical study of DNNs based on information-theoretical principles.
-  * Development of a deeper understating of DNNs based on information theory. 
-  * Devise large scale implementation algorithms for the information bottleneck theory.
+  * Develop novel LLM personalization techniques reducing computational costs by 60%
+  * Pioneer efficient adaptation methods for LLMs, creating new benchmarks
+  * Lead research in multi-agent systems and user-centric search
+  * Direct end-to-end development from research prototypes to production
   """
 
 [[experience]]
-  title = "Graduate Researcher"
-  company = "Advisor: Professor Haim Sompolinsky - The Hebrew University of Jerusalem"
-  location = "Israel"
-  date_start = "2016-01-01"
-  date_end = "2021-08-01"
-  description = """Development of models for perceptual and transfer learning in DNNs, which are biologically plausible. """
-  
-  
+  title = "Senior AI & Data Science Researcher"
+  company = "Intel"
+  location = "New York, NY"
+  date_start = "2020-01-01"
+  date_end = "2023-12-31"
+  description = """
+  * Led development of AI algorithms focusing on LLMs and RAG systems
+  * Implemented document question-answering systems using fine-tuned LLMs
+  * Optimized validation processes for automated code validation
+  * Collaborated with cross-functional teams on tabular data solutions
+  """
+
 [[experience]]
   title = "Research Student"
-  company = "Google AI, Host: Dr. Alex Alemi"
-  location = "Mountain View, CA, USA"
+  company = "Google AI"
+  company_url = ""
+  location = "Mountain View, CA"
   date_start = "2019-06-01"
-  date_end =  "2020-05-01"
+  date_end = "2020-05-01"
   description = """
-  Exploration of generalization by information quantities for infinitely-wide neural networks.
+  * Developed an information-theoretic framework for infinitely-wide neural networks
+  * Created efficient data compression algorithms leveraging information theory
   """
-  
-  [[experience]]
-  title = "Research Assistant"
-  company = "Advisor: Professor Leo Joskowicz - The Hebrew University of Jerusalem"
-  location = "Israel"
-  date_start = "2012-02-01"
-  date_end =  "2014-02-01"
+
+[[experience]]
+  title = "AI & Data Science Researcher"
+  company = "Intel"
+  location = "Petah-Tikva, Israel"
+  date_start = "2013-02-01"
+  date_end = "2019-05-31"
   description = """
-  Development of image segmentation algorithms using DNNs used for  extracting medical indicators to detect abnormality in embryos.
+  * Developed computer vision solutions for GPU defect detection
+  * Created ML-based automated testing frameworks
+  * Designed sensor-based ML systems for healthcare monitoring
+  """
+
+[[experience]]
+  title = "Algorithm and Web Developer"
+  company = "Wikipedia"
+  location = "Israel"
+  date_start = "2010-01-01"
+  date_end = "2013-01-31"
+  description = """
+  * Developed machine learning projects, including OCR system and copyright detection tool
+  * Enhanced user experience through creation of editing gadgets
+  * Contributed to projects promoting public knowledge accessibility
   """
 +++
-

@@ -24,7 +24,7 @@ summary: "We demonstrate the effectiveness of the Information-Plane visualizatio
  
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 #- name: Custom Link

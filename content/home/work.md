@@ -31,8 +31,8 @@ subtitle = "Research methods, open-source tools, and practical AI systems."
   link_label = "Explore the code"
 +++
 
-### Advising startups and companies
+### Research collaborations
 
-I advise a range of startups and established companies, helping teams connect advances in AI research with practical products and systems. This work sits alongside my research in industry and academia.
+I enjoy working with researchers and teams across academia and industry on shared research questions and practical AI systems. These collaborations range from joint research projects to exchanging ideas and offering guidance as new directions take shape.
 
 [Discuss a collaboration](#contact)

@@ -18,6 +18,6 @@ autolink = true
 email_form = 2
 +++
 
-I'm always happy to hear interesting ideas and explore new collaborations. Whether you're thinking about a research question, building an AI system, or looking for an advisor, I'd love to hear from you.
+I'm always happy to hear interesting ideas and explore new collaborations. Whether you have a research question, a joint project in mind, or an AI system you're building, I'd love to hear from you.
 
 Email me at [ravidziv@gmail.com](mailto:ravidziv@gmail.com).

@@ -33,6 +33,20 @@
 {{ $sort_by := "Date" }}
 {{ $query = sort $query $sort_by $items_sort }}
 
+{{/* Editorial priority is independent of publication dates. */}}
+{{ $pinned := slice }}
+{{ range $st.Params.content.pinned }}
+  {{ $paper := site.GetPage . }}
+  {{ if not $paper }}
+    {{ errorf "Pinned publication not found: %s" . }}
+  {{ else if not (in $query $paper) }}
+    {{ errorf "Pinned publication must match the featured filters: %s" . }}
+  {{ else }}
+    {{ $pinned = $pinned | append $paper }}
+  {{ end }}
+{{ end }}
+{{ $query = union $pinned $query }}
+
 {{/* Limit */}}
 {{ $query = first $items_count $query }}
 

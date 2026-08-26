@@ -18,6 +18,9 @@ subtitle = ""
   # Choose how much pages you would like to display (0 = all pages)
   count = 6
 
+  # Lead with these papers, then show the other featured papers by date.
+  pinned = ["/publication/layer-by-layer", "/publication/minp"]
+
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 

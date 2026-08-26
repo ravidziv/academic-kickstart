@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Ravid Shwartz-Ziv, AI researcher at Meta MSL working on world models, memory, and compression. Former NYU Assistant Professor; advisor to startups and companies."
+description = "Ravid Shwartz-Ziv, AI researcher at Meta MSL working on world models, memory, and compression. Former NYU Assistant Professor, connecting research and practice."
 
 ############################
 ## Site Features

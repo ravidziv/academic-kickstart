@@ -23,7 +23,7 @@ class Page(HTMLParser):
         self.ids = set()
         self.h1 = []
         self.schemas = []
-        self.sections = defaultdict(set)
+        self.sections = defaultdict(list)
         self.section_text = defaultdict(str)
         self.profile_links = []
         self.hidden_profile_links = False
@@ -59,7 +59,7 @@ class Page(HTMLParser):
         if tag == 'a' and a.get('href'):
             self.links.append(a['href'])
             if self._section_stack:
-                self.sections[self._section_stack[-1]].add(a['href'])
+                self.sections[self._section_stack[-1]].append(a['href'])
             if self._profile:
                 self.profile_links.append(a)
         if tag in ('img', 'script') and a.get('src'):
@@ -175,12 +175,16 @@ def main():
     assert profile['mainEntity']['@id'] == person['@id']
 
     def publications(section):
-        return {u for u in home.sections[section] if '/publication/' in u and urlsplit(u).path != '/publication/'}
+        return list(dict.fromkeys(u for u in home.sections[section]
+                                  if '/publication/' in u and urlsplit(u).path != '/publication/'))
     featured = publications('featured')
     recent = publications('publications')
     assert len(featured) == 6, featured
     assert len(recent) == 3, recent
-    assert not featured & recent
+    assert not set(featured) & set(recent)
+    assert [urlsplit(u).path for u in featured[:2]] == ['/publication/layer-by-layer/', '/publication/minp/']
+    assert {'/publication/s-jepa/', '/publication/jepa-neural-tokenizer/'} <= {urlsplit(u).path for u in featured}
+    assert urlsplit(recent[0]).path == '/publication/hp-jepa/'
     assert 'Former appointment · started September 2021' in home.text
     assert 'Started January 2023' in home.text
     assert 'Research into practice' in home.text
@@ -199,15 +203,24 @@ def main():
     assert 'compressing information while preserving what matters for a task' in home.section_text['podcast']
     assert 'interesting ideas and explore new collaborations' in home.section_text['contact']
     assert 'mailto:ravidziv@gmail.com' in home.sections['contact']
-    assert 'Advising startups and companies' in home.section_text['work']
+    assert 'Research collaborations' in home.section_text['work']
+    assert 'joint research projects' in home.section_text['work']
+    assert 'a joint project in mind' in home.section_text['contact']
+    assert 'Advising startups and companies' not in home.text
+    assert 'advisor to startups and companies' not in person['description']
+    assert 'advisor to startups and companies' not in home.meta['description'][0]
     assert '#contact' in home.sections['work']
     assert 'From information theory to working AI systems.' not in home.text
     assert 'Meta FAIR' not in home.text
-    for slug in ('layer-by-layer', 'minitap', 'situational-judgment-tests', 'chess-conceptual-alignment', 'thinking-beyond-tokens', 'inuit'):
+    for slug in ('layer-by-layer', 'minp', 'minitap', 'situational-judgment-tests', 'chess-conceptual-alignment', 'thinking-beyond-tokens', 'inuit', 's-jepa', 'jepa-neural-tokenizer', 'hp-jepa'):
         page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
         assert len(page.h1) == 1, slug
         assert (page.path.parent / 'cite.bib').is_file(), slug
         assert any('arxiv.org' in u for u in page.links), slug
+    for slug, arxiv_id in {'s-jepa': '2606.19398', 'jepa-neural-tokenizer': '2512.07168', 'hp-jepa': '2608.00491'}.items():
+        page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
+        assert 'https://arxiv.org/abs/' + arxiv_id in page.links, slug
+        assert 'Ravid Shwartz-Ziv' in page.text, slug
     for page in pages:
         assert 'github.com/example/inheritune' not in page.text
         assert not any('Ravid99216606' in u for u in page.links)

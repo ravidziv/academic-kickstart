@@ -1,13 +1,14 @@
 ---
 title: "Turning Up the Heat: Min-p Sampling for Creative and Coherent LLM Outputs"
 authors:
-- Minh Nguyen Nhat
-- Baker Andrew
-- Neo Clement
-- Roush Allen
-- Kirsch Andreas
+- Minh Nhat Nguyen
+- Andrew Baker
+- Clement Neo
+- Allen Roush
+- Andreas Kirsch
 - admin
-date: "2025-01-01"
+date: "2024-07-01"
+lastmod: "2026-08-26"
 doi: ""
 
 # Publication type.
@@ -17,13 +18,13 @@ doi: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "International Conference on Learning Representations"
-publication_short: "In *ICLR*"
+publication: "International Conference on Learning Representations, 2025 (Oral)"
+publication_short: "ICLR 2025 (Oral)"
 
-abstract: "Large Language Models (LLMs) generate text by sampling the next token from a probability distribution over the vocabulary at each decoding step. However, popular sampling methods like top-p (nucleus sampling) often struggle to balance quality and diversity, especially at higher temperatures, leading to incoherent or repetitive outputs. To address this challenge, we propose min-p sampling, a dynamic truncation method that adjusts the sampling threshold based on the model's confidence by scaling according to the top token's probability. We conduct extensive experiments on benchmarks including GPQA, GSM8K, and AlpacaEval Creative Writing, demonstrating that min-p sampling improves both the quality and diversity of generated text, particularly at high temperatures. Moreover, human evaluations reveal a clear preference for min-p sampling in terms of both text quality and diversity. Min-p sampling has been adopted by multiple open-source LLM implementations, highlighting its practical utility and potential impact."
+abstract: "Min-p is a decoding rule that scales the token-selection threshold with the probability of the model's most likely next token. We study this approach across reasoning and creative-writing tasks, examining how confidence-dependent truncation changes generation as temperature varies."
 
 # Summary. An optional shortened abstract.
-summary: "We introduce min-p sampling, a dynamic truncation method for language models that improves text generation quality and diversity, especially at high temperatures, showing superior performance across multiple benchmarks."
+summary: "A decoding method that scales its token cutoff with the model's confidence, giving a simple way to control sampling as temperature changes."
 
 tags:
 - Language Models
@@ -35,8 +36,12 @@ tags:
 featured: true
 
 links:
-url_pdf: https://arxiv.org/abs/2407.01082
-#url_code: 
+- name: arXiv
+  url: https://arxiv.org/abs/2407.01082
+- name: Proceedings
+  url: https://proceedings.iclr.cc/paper_files/paper/2025/hash/afa5f124e36bed5cc2125067005d43f5-Abstract-Conference.html
+url_pdf: https://arxiv.org/pdf/2407.01082
+url_code: https://github.com/menhguin/minp_paper
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
@@ -51,10 +56,6 @@ image:
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-projects:
-- internal-project
-
-# Slides (optional).
-slides: example
 ---
+
+Presented at **ICLR 2025 (Oral)**. First released in July 2024; the latest arXiv revision is from November 2025.

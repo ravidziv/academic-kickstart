@@ -8,6 +8,9 @@ overrides and `assets/scss/custom.scss`; the theme submodule is unchanged.
 
 - Profile and affiliations: `content/authors/admin/_index.md`.
 - Applied work: `content/home/work.md`.
+- S-JEPA leads the applied-work cards under World models & JEPA. Its description
+  identifies the actual task as speech representation learning; it is not
+  described as a complete world simulator.
 - The collaboration block is the Markdown body of `content/home/work.md`.
   It includes joint research projects and informal guidance across academia
   and industry, without presenting a separate commercial advisory service.

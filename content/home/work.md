@@ -7,6 +7,14 @@ title = "Research into practice"
 subtitle = "Research methods, open-source tools, and practical AI systems."
 
 [[items]]
+  category = "World models & JEPA"
+  title = "S-JEPA"
+  description = "Learning speech representations through masked prediction with soft clustering targets. This work explores predictive representations relevant to world models."
+  paper = "/publication/s-jepa/index.md"
+  link = "https://github.com/gioannides/s-jepa"
+  link_label = "Explore the code"
+
+[[items]]
   category = "Compression & efficiency"
   title = "Inheritune"
   description = "Building smaller language models by reusing useful layers and reducing the redundancy caused by attention collapse."

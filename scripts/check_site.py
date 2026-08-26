@@ -197,6 +197,7 @@ def main():
     assert 'Previously, I was an Assistant Professor at NYU' in about
     assert 'Ph.D. with Tali Tishby' in about
     assert 'postdoctoral research with Yann LeCun' in about
+    assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience.' in about
     assert 'interesting ideas and explore new collaborations' in about
     assert 'Share an idea' in about
     assert 'a podcast about AI research and its practical implications' in about
@@ -210,6 +211,10 @@ def main():
     assert 'advisor to startups and companies' not in person['description']
     assert 'advisor to startups and companies' not in home.meta['description'][0]
     assert '#contact' in home.sections['work']
+    assert '/publication/s-jepa/' in home.sections['work']
+    assert 'https://github.com/gioannides/s-jepa' in home.sections['work']
+    assert 'World models & JEPA' in home.section_text['work']
+    assert 'Learning speech representations' in home.section_text['work']
     assert 'From information theory to working AI systems.' not in home.text
     assert 'Meta FAIR' not in home.text
     for slug in ('layer-by-layer', 'minp', 'minitap', 'situational-judgment-tests', 'chess-conceptual-alignment', 'thinking-beyond-tokens', 'inuit', 's-jepa', 'jepa-neural-tokenizer', 'hp-jepa'):

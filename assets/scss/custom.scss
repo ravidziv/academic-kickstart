@@ -57,7 +57,7 @@
 .work-heading { max-width: 760px; margin-bottom: 30px; }
 .work-heading h2 { font-size: 2rem; margin: 0 0 14px; }
 .work-heading > p:last-child { font-size: 0.85rem; }
-.applied-work-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.applied-work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .applied-work-card { border: 1px solid rgba(128,128,128,0.22); border-radius: 9px; padding: 28px; display: flex; flex-direction: column; }
 .applied-work-card h3 { margin: 0 0 14px; font-size: 1.25rem; }
 .applied-work-card > p:not(.eyebrow) { font-size: 0.82rem; line-height: 1.7; }

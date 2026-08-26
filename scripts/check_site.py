@@ -183,10 +183,17 @@ def main():
     assert len(recent) == 3, recent
     assert not set(featured) & set(recent)
     assert [urlsplit(u).path for u in featured[:2]] == ['/publication/layer-by-layer/', '/publication/minp/']
-    assert {'/publication/s-jepa/', '/publication/jepa-neural-tokenizer/'} <= {urlsplit(u).path for u in featured}
-    assert urlsplit(recent[0]).path == '/publication/hp-jepa/'
+    assert {urlsplit(u).path for u in featured[2:]} == {
+        '/publication/s-jepa/', '/publication/training-in-imagination/',
+        '/publication/task-aware-quantization/', '/publication/attention-sinks-compression-valleys/',
+    }
+    assert [urlsplit(u).path for u in recent] == [
+        '/publication/dry-sampling/', '/publication/xtc-sampling/', '/publication/hp-jepa/',
+    ]
     assert 'Former appointment · started September 2021' in home.text
-    assert 'Started January 2023' in home.text
+    assert 'August 2025 – Present' in home.section_text['experience']
+    assert 'January 2023 – August 2025' in home.section_text['experience']
+    assert 'Started January 2023' not in home.section_text['experience']
     assert 'Research into practice' in home.text
     assert 'Hebrew University of Jerusalem' in home.text
     about = home.section_text['about']
@@ -200,8 +207,14 @@ def main():
     assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience.' in about
     assert 'interesting ideas and explore new collaborations' in about
     assert 'Share an idea' in about
-    assert 'a podcast about AI research and its practical implications' in about
+    assert 'I write about AI research and its practical implications' in about
+    assert 'co-host the podcast with Allen Roush' in about
     assert 'compressing information while preserving what matters for a task' in home.section_text['podcast']
+    assert 'Selected writing' in home.section_text['podcast']
+    assert 'Writing & Podcast' in home.text
+    for slug in ('editing-a-compressed-memory', 'speculative-decoding-from-zero-to'):
+        assert 'https://www.the-information-bottleneck.com/p/' + slug in home.sections['podcast']
+    assert 'https://www.the-information-bottleneck.com/archive' in home.sections['podcast']
     assert 'interesting ideas and explore new collaborations' in home.section_text['contact']
     assert 'mailto:ravidziv@gmail.com' in home.sections['contact']
     assert 'Research collaborations' in home.section_text['work']
@@ -226,6 +239,43 @@ def main():
         page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
         assert 'https://arxiv.org/abs/' + arxiv_id in page.links, slug
         assert 'Ravid Shwartz-Ziv' in page.text, slug
+    audited = {
+        'dry-sampling': '2608.22761', 'xtc-sampling': '2608.22758',
+        'mirage-probes': '2606.13870', 'training-in-imagination': '2605.06732',
+        'latent-transfer-attack': '2603.06311', 'superhuman-adaptable-intelligence': '2602.23643',
+        'uat-lite': '2602.02952', 'beyond-the-loss-curve': '2602.00315',
+        'gmm-anchored-jepa': '2602.09040', 'ai-expertise-under-uncertainty': '2601.05500',
+        'deepdebater': '2511.17854', 'task-aware-quantization': '2511.06516',
+        'antislop': '2510.15061', 'attention-sinks-compression-valleys': '2510.06477',
+        'illusion-of-progress': '2508.08285', 'layer-importance-math-reasoning': '2506.22638',
+        'tokens-to-thoughts': '2505.17117', 'ndlinear': '2503.17353', 'rate-in': '2412.07169',
+        'uncertainty-aware-priors': None,
+    }
+    for slug, arxiv_id in audited.items():
+        page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
+        assert len(page.h1) == 1 and 'Ravid Shwartz-Ziv' in page.text, slug
+        assert page.canonical == ['https://www.ravid-shwartz-ziv.com/publication/' + slug + '/'], slug
+        citation = (page.path.parent / 'cite.bib').read_text()
+        assert 'Ravid Shwartz-Ziv' in citation, slug
+        if arxiv_id:
+            assert 'https://arxiv.org/abs/' + arxiv_id in page.links, slug
+            assert 'eprint={' + arxiv_id + '}' in citation, slug
+        else:
+            assert 'https://proceedings.mlr.press/v258/rudner25a.html' in page.links, slug
+    for slug, label in {
+        'layer-by-layer': 'ICML 2025 (Oral)',
+        'task-aware-quantization': 'ICML 2026 AdaptFM Workshop',
+        'mirage-probes': 'ICML 2026 EMM-QA Workshop (Spotlight)',
+        'tokens-to-thoughts': 'ICLR 2026',
+        'attention-sinks-compression-valleys': 'ICLR 2026',
+        'antislop': 'ICLR 2026',
+        'layer-importance-math-reasoning': 'NeurIPS 2025 MATH-AI Workshop',
+        'chess-conceptual-alignment': 'NeurIPS 2025 Creative AI Track',
+    }.items():
+        assert label in home.text or label in next(p.text for p in pages if p.path == root / 'publication' / slug / 'index.html'), slug
+    livebench = next(p for p in pages if p.path == root / 'publication/livebanch/index.html')
+    assert 'Contamination-Limited' in livebench.h1[0]
+    assert 'Contamination-Free' not in livebench.h1[0]
     for page in pages:
         assert 'github.com/example/inheritune' not in page.text
         assert not any('Ravid99216606' in u for u in page.links)

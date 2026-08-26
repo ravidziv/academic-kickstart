@@ -14,7 +14,9 @@ overrides and `assets/scss/custom.scss`; the theme submodule is unchanged.
 - The collaboration block is the Markdown body of `content/home/work.md`.
   It includes joint research projects and informal guidance across academia
   and industry, without presenting a separate commercial advisory service.
-- Podcast: `content/home/podcast.md`.
+- Writing and podcast: `content/home/podcast.md`. Keep the `#podcast` anchor
+  stable. The section links directly to authored essays as well as listening
+  platforms, and the navigation label is Writing & Podcast.
 - Experience: `content/home/experience.md`. Use `date_label` when exact dates
   are unavailable; only confirmed current roles should have `current = true`.
 - Publications: each `content/publication/<slug>/` folder contains the page
@@ -24,6 +26,13 @@ overrides and `assets/scss/custom.scss`; the theme submodule is unchanged.
 - `content.pinned` in `content/home/featured.md` puts Layer by Layer and Min-p
   first without changing their dates. The remaining selected papers follow in
   descending date order. Every pinned page must exist and be featured.
+- The current six selections are Layer by Layer, Min-p, S-JEPA, On Training in
+  Imagination, You Had One Job (Task-Aware Quantization), and Attention Sinks
+  and Compression Valleys. Inheritune and Minitap remain in applied work;
+  the other JEPA papers and From Tokens to Thoughts remain in the archive.
+- Project overrides for `li_compact.html` and `page_metadata.html` show
+  `publication_short` in lists and detail pages. This makes workshop/preprint
+  status and conference years visible independently of original release dates.
 
 The homepage presents research alongside practical methods, benchmarks, and
 systems. Project descriptions refer to collaborative work; they do not assert
@@ -56,6 +65,12 @@ the unchanged reveal.js vendor assets.
 
 ## Sources for the August 2026 update
 
+The expanded [recent-publication audit](recent-publications-2026.md) records
+20 additional entries, their verified sources, and the selection rationale.
+It compares arXiv records under both hyphenated and unhyphenated name variants
+with official conference records. Treat it as a dated metadata/content audit,
+not an automatically updating or exhaustive bibliography.
+
 - [Layer by Layer, ICML 2025](https://proceedings.mlr.press/v267/skean25a.html)
 - [Min-p, ICLR 2025](https://proceedings.iclr.cc/paper_files/paper/2025/hash/afa5f124e36bed5cc2125067005d43f5-Abstract-Conference.html)
 - [Min-p authors, first release, revisions, and oral status](https://arxiv.org/abs/2407.01082)
@@ -70,7 +85,10 @@ the unchanged reveal.js vendor assets.
 - [LiveBench](https://github.com/LiveBench/LiveBench)
 
 Boundary-Bench was not added because the identified paper did not list Ravid
-among its authors. The Meta start date and NYU/Wand end dates were not guessed.
+among its authors. The author subsequently confirmed starting at Meta and
+ending the Wand AI appointment in August 2025. Those month-level dates are
+shown with date labels, without inventing exact days. The NYU end date remains
+unconfirmed and is not inferred from the Meta/Wand transition.
 
 Min-p's page uses its verified first-release date (July 1, 2024) rather than
 the old January 1, 2025 placeholder. The ICLR 2025 venue and oral status are

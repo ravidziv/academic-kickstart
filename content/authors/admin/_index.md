@@ -56,7 +56,7 @@ social:
   identity: true
 - icon: podcast
   icon_pack: fas
-  label: The Information Bottleneck podcast
+  label: The Information Bottleneck writing and podcast
   link: https://www.the-information-bottleneck.com/
 email: ravidziv@gmail.com
 highlight_name: true
@@ -70,6 +70,6 @@ My research connects continual learning, representation learning, and AI agents 
 
 Previously, I was an Assistant Professor at NYU's Center for Data Science. My industry experience spans Wand AI, Intel, and Google AI, alongside research collaborations with teams across academia and industry.
 
-I completed my Ph.D. with Tali Tishby and my postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience. With Allen Roush, I co-host [The Information Bottleneck](https://www.the-information-bottleneck.com/), a podcast about AI research and its practical implications.
+I completed my Ph.D. with Tali Tishby and my postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience. I write about AI research and its practical implications at [The Information Bottleneck](https://www.the-information-bottleneck.com/), where I also co-host the podcast with Allen Roush.
 
 I'm always happy to hear interesting ideas and explore new collaborations.

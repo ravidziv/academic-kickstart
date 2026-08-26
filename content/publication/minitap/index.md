@@ -23,7 +23,7 @@ summary: We study a mobile AI agent that separates planning, execution, verifica
 tags:
 - AI Agents
 - Evaluation
-featured: true
+featured: false
 url_pdf: https://arxiv.org/pdf/2602.07787
 links:
 - name: arXiv

@@ -11,13 +11,13 @@ subtitle = "Selected research appointments"
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Exact start/end dates are deliberately omitted when not confirmed.
+# Date labels preserve month-level dates without inventing exact days.
 [[experience]]
   title = "AI Researcher"
   company = "Meta Superintelligence Labs (MSL)"
   company_url = "https://ai.meta.com/"
   current = true
-  date_label = "Current"
+  date_label = "August 2025 – Present"
   description = "Research on world models, memory, compression, and continual learning, with an emphasis on practical capabilities for efficient language models and AI agents."
 
 [[experience]]
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   company = "Wand AI"
   location = "New York, NY"
   date_start = "2023-01-01"
-  date_label = "Started January 2023"
+  date_label = "January 2023 – August 2025"
   date_end = ""
   description = """
   * Developed LLM personalization techniques

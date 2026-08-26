@@ -8,7 +8,7 @@
   url = "#featured"
   weight = 20
 [[main]]
-  name = "Podcast"
+  name = "Writing & Podcast"
   url = "#podcast"
   weight = 30
 [[main]]

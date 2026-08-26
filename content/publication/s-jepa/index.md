@@ -11,15 +11,16 @@ authors:
 - admin
 date: '2026-06-17'
 lastmod: '2026-08-26'
-publication_types: ['3']
+publication_types:
+- '3'
 publication: arXiv preprint
 publication_short: arXiv, 2026
-abstract: S-JEPA learns speech representations by predicting soft Gaussian-mixture
-  targets at masked positions. Training moves from acoustic features to online
-  targets built from learned representations, avoiding repeated offline reclustering
-  and preserving uncertainty where speech categories overlap.
-summary: Learning speech representations with soft predictive targets, preserving
-  acoustic ambiguity while avoiding repeated offline reclustering.
+abstract: S-JEPA learns speech representations by predicting soft Gaussian-mixture targets at
+  masked positions. Training moves from acoustic features to online targets built from learned
+  representations, avoiding repeated offline reclustering and preserving uncertainty where speech
+  categories overlap.
+summary: Learning speech representations with soft predictive targets, preserving acoustic ambiguity
+  while avoiding repeated offline reclustering.
 tags:
 - JEPA
 - Self-Supervised Learning
@@ -32,3 +33,5 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2606.19398
 ---
+
+Related work: the earlier [GMM-Anchored JEPA study]({{< ref "/publication/gmm-anchored-jepa/index.md" >}}) uses fixed soft acoustic clusters to support speech representation learning.

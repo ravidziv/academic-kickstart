@@ -25,7 +25,7 @@ tags:
 - Neural Networks
 - Attention Mechanism
 - Efficient Training
-featured: true
+featured: false
 links:
 - name: Journal version
   url: https://openreview.net/forum?id=2zQn0bUoPf

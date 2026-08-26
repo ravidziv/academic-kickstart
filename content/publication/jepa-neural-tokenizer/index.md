@@ -24,7 +24,7 @@ tags:
 - Speech
 - Compression
 - Representation Learning
-featured: true
+featured: false
 url_pdf: https://arxiv.org/pdf/2512.07168
 links:
 - name: arXiv

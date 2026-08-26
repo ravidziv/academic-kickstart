@@ -13,7 +13,7 @@ lastmod: '2026-08-26'
 publication_types:
 - '1'
 publication: Proceedings of the 42nd International Conference on Machine Learning
-publication_short: ICML 2025
+publication_short: ICML 2025 (Oral)
 abstract: Intermediate language-model layers can provide stronger representations
   than the final layer. We study this using information theory, geometry, and downstream
   evaluation.
@@ -31,4 +31,6 @@ links:
   url: https://arxiv.org/abs/2502.02013
 - name: Proceedings
   url: https://proceedings.mlr.press/v267/skean25a.html
+- name: Oral presentation
+  url: https://icml.cc/virtual/2025/oral/47214
 ---

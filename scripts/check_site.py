@@ -201,7 +201,10 @@ def main():
         assert 'information theory and computational neuroscience' in surface
     assert 'world models, memory, and compression' in about.lower()
     assert 'continual learning' in about.lower()
-    assert 'Previously, I was an Assistant Professor at NYU' in about
+    assert 'Previously, I was an Assistant Professor and Faculty Fellow at NYU' in about
+    assert 'Center for Data Science' in about
+    assert 'Former Assistant Professor and Faculty Fellow at NYU' in person['description']
+    assert 'Former NYU Assistant Professor and Faculty Fellow' in home.meta['description'][0]
     assert 'Ph.D. with Tali Tishby' in about
     assert 'postdoctoral research with Yann LeCun' in about
     assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience.' in about

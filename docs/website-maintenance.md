@@ -42,7 +42,7 @@ The profile's `interests` list also drives the homepage topic labels. World
 models, memory, and compression are the leading themes; continual learning
 remains an explicit research interest. The user confirmed the current
 affiliation as Meta Superintelligence Labs (MSL), the former Assistant Professor
-appointment at NYU, Ph.D. supervision by Tali Tishby, postdoctoral research with
+and Faculty Fellow appointment at NYU, Ph.D. supervision by Tali Tishby, postdoctoral research with
 Yann LeCun, and advisory work with startups and companies.
 
 `identity: true` on a social profile includes it in `Person.sameAs`. Do not use

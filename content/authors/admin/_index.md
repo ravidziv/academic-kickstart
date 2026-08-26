@@ -9,7 +9,7 @@ lastmod: "2026-08-26"
 organizations:
 - name: Meta Superintelligence Labs (MSL)
   url: https://ai.meta.com/
-bio: AI researcher at Meta MSL with a background in information theory and computational neuroscience, working on world models, memory, and compression. Former Assistant Professor at NYU, collaborating on research across academia and industry.
+bio: AI researcher at Meta MSL with a background in information theory and computational neuroscience, working on world models, memory, and compression. Former Assistant Professor and Faculty Fellow at NYU, collaborating on research across academia and industry.
 alternate_names:
 - Ravid Shwartz Ziv
 interests:
@@ -68,7 +68,7 @@ I'm an AI researcher at [Meta Superintelligence Labs (MSL)](https://ai.meta.com/
 
 My research connects continual learning, representation learning, and AI agents with practical questions: how models understand the world, retain knowledge, and adapt over time.
 
-Previously, I was an Assistant Professor at NYU's Center for Data Science. My industry experience spans Wand AI, Intel, and Google AI, alongside research collaborations with teams across academia and industry.
+Previously, I was an Assistant Professor and Faculty Fellow at NYU's Center for Data Science. My industry experience spans Wand AI, Intel, and Google AI, alongside research collaborations with teams across academia and industry.
 
 I completed my Ph.D. with Tali Tishby and my postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience. I write about AI research and its practical implications at [The Information Bottleneck](https://www.the-information-bottleneck.com/), where I also co-host the podcast with Allen Roush.
 

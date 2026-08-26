@@ -97,6 +97,7 @@
             <div class="description">
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
+              {{ with .advisor }}<p class="institution">Advisor: {{ . }}</p>{{ end }}
             </div>
           </li>
           {{ end }}

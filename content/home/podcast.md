@@ -4,15 +4,15 @@ headless = true
 active = true
 weight = 60
 title = "The Information Bottleneck"
-subtitle = "Conversations about AI research"
+subtitle = "A podcast about AI research and the people building it"
 
 [design]
   columns = "2"
 +++
 
-I co-host **The Information Bottleneck** with Allen Roush. We talk with researchers about the ideas behind their work, the experiments that changed their minds, and the questions that remain open.
+On **The Information Bottleneck**, Allen Roush and I talk with researchers about how AI works, the ideas behind new results, and what they mean for practical systems.
 
-Our conversations span representation learning, reasoning, memory, AI agents, and the foundations of machine learning. The podcast site also includes research essays and notes.
+The name comes from a simple idea: compressing information while preserving what matters for a task. Our conversations range from memory and reasoning to AI agents and the foundations of learning.
 
 **[Listen to the podcast and read the latest posts](https://www.the-information-bottleneck.com/)**
 

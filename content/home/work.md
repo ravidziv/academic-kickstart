@@ -4,10 +4,10 @@ headless = true
 active = true
 weight = 30
 title = "Research into practice"
-subtitle = "Methods, benchmarks, and systems from collaborative research."
+subtitle = "Research methods, open-source tools, and practical AI systems."
 
 [[items]]
-  category = "Model efficiency"
+  category = "Compression & efficiency"
   title = "Inheritune"
   description = "Building smaller language models by reusing useful layers and reducing the redundancy caused by attention collapse."
   paper = "/publication/inuit/index.md"
@@ -30,3 +30,9 @@ subtitle = "Methods, benchmarks, and systems from collaborative research."
   link = "https://github.com/minitap-ai/mobile-use"
   link_label = "Explore the code"
 +++
+
+### Advising startups and companies
+
+I advise a range of startups and established companies, helping teams connect advances in AI research with practical products and systems. This work sits alongside my research in industry and academia.
+
+[Discuss a collaboration](#contact)

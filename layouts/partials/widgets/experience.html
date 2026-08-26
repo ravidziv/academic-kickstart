@@ -61,7 +61,7 @@
     <div class="experience-education">
       <h3>Education</h3>
       {{ range .courses }}
-      <p>{{ .course }}, {{ .institution }} ({{ .year }})</p>
+      <p>{{ .course }}, {{ .institution }} ({{ .year }}){{ with .advisor }}<br>Advisor: {{ . }}{{ end }}</p>
       {{ end }}
     </div>
     {{ end }}

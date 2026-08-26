@@ -8,6 +8,8 @@ overrides and `assets/scss/custom.scss`; the theme submodule is unchanged.
 
 - Profile and affiliations: `content/authors/admin/_index.md`.
 - Applied work: `content/home/work.md`.
+- The advisory block is the Markdown body of `content/home/work.md`; no
+  company names, client counts, or advisory dates are implied.
 - Podcast: `content/home/podcast.md`.
 - Experience: `content/home/experience.md`. Use `date_label` when exact dates
   are unavailable; only confirmed current roles should have `current = true`.
@@ -19,6 +21,13 @@ overrides and `assets/scss/custom.scss`; the theme submodule is unchanged.
 The homepage presents research alongside practical methods, benchmarks, and
 systems. Project descriptions refer to collaborative work; they do not assert
 undocumented product deployments or sole ownership.
+
+The profile's `interests` list also drives the homepage topic labels. World
+models, memory, and compression are the leading themes; continual learning
+remains an explicit research interest. The user confirmed the current
+affiliation as Meta Superintelligence Labs (MSL), the former Assistant Professor
+appointment at NYU, Ph.D. supervision by Tali Tishby, postdoctoral research with
+Yann LeCun, and advisory work with startups and companies.
 
 `identity: true` on a social profile includes it in `Person.sameAs`. Do not use
 this flag for an employer's general website or a podcast's homepage.

@@ -24,6 +24,7 @@ class Page(HTMLParser):
         self.h1 = []
         self.schemas = []
         self.sections = defaultdict(set)
+        self.section_text = defaultdict(str)
         self.profile_links = []
         self.hidden_profile_links = False
         self.canonical = []
@@ -82,6 +83,8 @@ class Page(HTMLParser):
 
     def handle_data(self, data):
         self.text += data
+        if self._section_stack:
+            self.section_text[self._section_stack[-1]] += data
         if self._title:
             self.title += data
         if self._heading is not None:
@@ -137,7 +140,7 @@ def main():
     pages = content_pages(root)
     home = next(p for p in pages if p.path == root / 'index.html')
     assert home.h1 == ['Ravid Shwartz-Ziv'], home.h1
-    assert home.title == 'Ravid Shwartz-Ziv | AI Researcher at Meta FAIR'
+    assert home.title == 'Ravid Shwartz-Ziv | AI Researcher at Meta MSL'
     assert home.canonical == ['https://www.ravid-shwartz-ziv.com/']
     assert len(home.meta['description']) == 1 and home.meta['description'][0].strip()
     assert home.meta['og:description'] == home.meta['description']
@@ -163,7 +166,8 @@ def main():
     assert person['@id'] == home.canonical[0] + '#person'
     assert person['url'] == home.canonical[0]
     assert person['jobTitle'] == 'AI Researcher'
-    assert person['worksFor'][0]['name'] == 'FAIR, Meta'
+    assert person['worksFor'][0]['name'] == 'Meta Superintelligence Labs (MSL)'
+    assert person['knowsAbout'][:3] == ['World Models', 'Memory & Personalization', 'Model Compression']
     assert target_file(root, home.path, person['image']).is_file()
     assert set(person['sameAs']) <= set(home.links)
     assert not any('bottleneck' in u or 'ai.meta.com' in u for u in person['sameAs'])
@@ -177,9 +181,26 @@ def main():
     assert len(featured) == 6, featured
     assert len(recent) == 3, recent
     assert not featured & recent
-    assert 'Started September 2021' in home.text and 'Started January 2023' in home.text
+    assert 'Former appointment · started September 2021' in home.text
+    assert 'Started January 2023' in home.text
     assert 'Research into practice' in home.text
     assert 'Hebrew University of Jerusalem' in home.text
+    about = home.section_text['about']
+    assert 'world models, memory, and compression' in about.lower()
+    assert 'continual learning' in about.lower()
+    assert 'Previously, I was an Assistant Professor at NYU' in about
+    assert 'Ph.D. with Tali Tishby' in about
+    assert 'postdoctoral research with Yann LeCun' in about
+    assert 'interesting ideas and explore new collaborations' in about
+    assert 'Share an idea' in about
+    assert 'a podcast about AI research and its practical implications' in about
+    assert 'compressing information while preserving what matters for a task' in home.section_text['podcast']
+    assert 'interesting ideas and explore new collaborations' in home.section_text['contact']
+    assert 'mailto:ravidziv@gmail.com' in home.sections['contact']
+    assert 'Advising startups and companies' in home.section_text['work']
+    assert '#contact' in home.sections['work']
+    assert 'From information theory to working AI systems.' not in home.text
+    assert 'Meta FAIR' not in home.text
     for slug in ('layer-by-layer', 'minitap', 'situational-judgment-tests', 'chess-conceptual-alignment', 'thinking-beyond-tokens', 'inuit'):
         page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
         assert len(page.h1) == 1, slug

@@ -4,25 +4,28 @@ authors:
 - admin
 superuser: true
 role: AI Researcher
-tagline: From information theory to working AI systems.
+affiliation_short: Meta MSL
 lastmod: "2026-08-26"
 organizations:
-- name: FAIR, Meta
-  url: https://ai.meta.com/research/
-bio: AI researcher at Meta FAIR studying information theory, representation learning, memory, and efficient language models. Co-host of The Information Bottleneck.
+- name: Meta Superintelligence Labs (MSL)
+  url: https://ai.meta.com/
+bio: AI researcher at Meta MSL working on world models, memory, and compression for capable, efficient AI systems. Former Assistant Professor at NYU and advisor to startups and companies.
 alternate_names:
 - Ravid Shwartz Ziv
 interests:
-- Information Theory & Compression
-- Representation Learning
-- Efficient Language Models
+- World Models
 - Memory & Personalization
+- Model Compression
+- Continual Learning
+- Efficient AI
+- Representation Learning
 - AI Agents & Evaluation
 education:
   courses:
   - course: Ph.D. in Computational Neuroscience
     institution: Hebrew University of Jerusalem
     year: 2021
+    advisor: Tali Tishby
   - course: B.Sc. in Computer Science and Computational Biology
     institution: Hebrew University of Jerusalem
     year: 2014
@@ -61,8 +64,12 @@ user_groups:
 - Researchers
 ---
 
-I'm an AI researcher at [Meta FAIR](https://ai.meta.com/research/), working across the foundations of machine learning and the systems that put those ideas to use.
+I'm an AI researcher at [Meta Superintelligence Labs (MSL)](https://ai.meta.com/), working on world models, memory, and compression to build more capable and efficient AI systems.
 
-I study how models learn, represent, and compress information. My work spans representation learning, efficient language models, memory, and AI agents, with an emphasis on connecting scientific understanding to methods we can build and evaluate.
+My research connects continual learning, representation learning, and AI agents with practical questions: how models understand the world, retain knowledge, and adapt over time.
 
-My experience includes research and teaching at NYU's Center for Data Science and applied AI work at Wand AI, Intel, and Google AI. I also co-host [The Information Bottleneck](https://www.the-information-bottleneck.com/) with Allen Roush.
+Previously, I was an Assistant Professor at NYU's Center for Data Science. My industry experience spans Wand AI, Intel, and Google AI, alongside advising startups and companies.
+
+I completed my Ph.D. with Tali Tishby and my postdoctoral research with Yann LeCun. With Allen Roush, I co-host [The Information Bottleneck](https://www.the-information-bottleneck.com/), a podcast about AI research and its practical implications.
+
+I'm always happy to hear interesting ideas and explore new collaborations.

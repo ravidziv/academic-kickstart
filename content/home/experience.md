@@ -14,18 +14,18 @@ date_format = "Jan 2006"
 # Exact start/end dates are deliberately omitted when not confirmed.
 [[experience]]
   title = "AI Researcher"
-  company = "FAIR, Meta"
-  company_url = "https://ai.meta.com/research/"
+  company = "Meta Superintelligence Labs (MSL)"
+  company_url = "https://ai.meta.com/"
   current = true
   date_label = "Current"
-  description = "Research on information theory, representation learning, memory, and efficient AI systems."
+  description = "Research on world models, memory, compression, and continual learning, with an emphasis on practical capabilities for efficient language models and AI agents."
 
 [[experience]]
   title = "Assistant Professor and Faculty Fellow"
   company = "NYU, Center for Data Science"
   location = "New York, NY"
   date_start = "2021-09-01"
-  date_label = "Started September 2021"
+  date_label = "Former appointment · started September 2021"
   date_end = ""
   description = """
   * Led research initiatives in LLMs, focusing on model efficiency, compression techniques, and novel benchmarking frameworks

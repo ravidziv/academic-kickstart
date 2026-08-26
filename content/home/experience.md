@@ -3,31 +3,35 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 90  # Order that this section will appear.
 title = "Experience"
-subtitle = ""
+subtitle = "Selected research appointments"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
+# Exact start/end dates are deliberately omitted when not confirmed.
+[[experience]]
+  title = "AI Researcher"
+  company = "FAIR, Meta"
+  company_url = "https://ai.meta.com/research/"
+  current = true
+  date_label = "Current"
+  description = "Research on information theory, representation learning, memory, and efficient AI systems."
 
 [[experience]]
   title = "Assistant Professor and Faculty Fellow"
   company = "NYU, Center for Data Science"
   location = "New York, NY"
   date_start = "2021-09-01"
+  date_label = "Started September 2021"
   date_end = ""
   description = """
-  * Lead research initiatives in LLMs, focusing on model efficiency, compression techniques, and novel benchmarking frameworks
-  * Pioneer novel approaches for analyzing LLM representations and information flow
-  * Direct research in representation learning through information-theoretic lens
-  * Develop and teach graduate-level courses in Advanced Machine Learning and Deep Learning
+  * Led research initiatives in LLMs, focusing on model efficiency, compression techniques, and novel benchmarking frameworks
+  * Studied approaches for analyzing LLM representations and information flow
+  * Conducted research in representation learning through information-theoretic lens
+  * Developed and taught graduate-level courses in Advanced Machine Learning and Deep Learning
   """
 
 [[experience]]
@@ -35,11 +39,12 @@ date_format = "Jan 2006"
   company = "Wand AI"
   location = "New York, NY"
   date_start = "2023-01-01"
+  date_label = "Started January 2023"
   date_end = ""
   description = """
-  * Develop novel LLM personalization techniques 
-  * Pioneer efficient adaptation methods for LLMs
-  * Direct end-to-end development from research prototypes to production
+  * Developed LLM personalization techniques
+  * Researched efficient adaptation methods for LLMs
+  * Directed end-to-end development from research prototypes to production
   """
 
 [[experience]]

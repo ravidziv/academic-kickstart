@@ -25,7 +25,7 @@ summary: We explored whether deep models should be a recommended option for tabu
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 #- url: https://arxiv.org/abs/2106.03253

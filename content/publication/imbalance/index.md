@@ -32,7 +32,7 @@ tags:
 - Training Methods
 - Data Augmentation
 
-featured: true
+featured: false
 
 links:
 url_pdf: https://proceedings.neurips.cc/paper_files/paper/2023/hash/6ea69f8116b7c01e3c3e43b62e6868fc-Abstract-Conference.html

@@ -26,7 +26,7 @@ summary: Study the generalization properties of infinite ensembles of infinitely
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 #- url: https://arxiv.org/abs/1911.09189

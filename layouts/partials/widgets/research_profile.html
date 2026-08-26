@@ -1,0 +1,27 @@
+{{ $profile := site.GetPage (printf "/authors/%s" .page.Params.author) }}
+{{ $avatar := ($profile.Resources.ByType "image").GetMatch "*avatar*" }}
+<div class="research-hero row align-items-center">
+  <div class="col-lg-8 hero-copy">
+    <p class="eyebrow">{{ $profile.Params.role }} <span aria-hidden="true">·</span> Meta FAIR</p>
+    <h1>{{ $profile.Title }}</h1>
+    <p class="hero-statement">{{ $profile.Params.tagline }}</p>
+    <div class="hero-introduction">{{ $profile.Content }}</div>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#work">Explore my work</a>
+      <a class="btn btn-outline-primary" href="#contact">Get in touch</a>
+    </div>
+    {{ partial "social_links" $profile }}
+  </div>
+  <div class="col-lg-4 hero-portrait">
+    {{ with $avatar }}
+      {{ $image := .Fill "480x480 Center" }}
+      <img src="{{ $image.RelPermalink }}" alt="{{ $profile.Title }}" width="480" height="480">
+    {{ end }}
+    <p>Research across academia and industry</p>
+    <div class="research-topics" aria-label="Research interests">
+      <span>Information theory</span>
+      <span>Representation learning</span>
+      <span>Efficient AI</span>
+    </div>
+  </div>
+</div>

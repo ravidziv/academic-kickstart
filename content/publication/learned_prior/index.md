@@ -29,7 +29,7 @@ Instead, we show that we can learn highly informative posteriors from the source
 summary: "We show that we can learn highly informative posteriors from the source task, through supervised or self-supervised approaches, which then serve as the basis for priors that modify the whole loss surface on the downstream task. This approach enables significant performance gains and more data-efficient learning on a variety of downstream classification and segmentation tasks"
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 #- url: https://arxiv.org/abs/2106.03253

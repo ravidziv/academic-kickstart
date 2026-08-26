@@ -18,3 +18,4 @@ autolink = true
 email_form = 2
 +++
 
+For research discussions, collaborations, or speaking, email [ravidziv@gmail.com](mailto:ravidziv@gmail.com).

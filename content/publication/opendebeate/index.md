@@ -36,7 +36,7 @@ tags:
 - Natural Language Processing
 - Debate Analysis
 
-featured: true
+featured: false
 
 links:
 url_pdf: https://arxiv.org/abs/2406.14657

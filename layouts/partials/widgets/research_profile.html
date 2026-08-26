@@ -14,13 +14,13 @@
   <div class="col-lg-4 hero-portrait">
     {{ with $avatar }}
       {{ $image := .Fill "480x480 Center" }}
-      <img src="{{ $image.RelPermalink }}" alt="{{ $profile.Title }}" width="480" height="480">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $profile.Title }}" width="480" height="480" loading="eager" fetchpriority="high" decoding="async">
     {{ end }}
     <p>Research across academia and industry</p>
-    <div class="research-topics" aria-label="Research interests">
-      {{ range $profile.Params.interests }}
-      <span>{{ . }}</span>
-      {{ end }}
+    <div class="research-topics" aria-label="Primary research interests">
+      <span>World models</span>
+      <span>Memory</span>
+      <span>Compression</span>
     </div>
   </div>
 </div>

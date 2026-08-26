@@ -17,8 +17,17 @@ overrides and `assets/scss/custom.scss`; the theme submodule is unchanged.
 - Writing and podcast: `content/home/podcast.md`. Keep the `#podcast` anchor
   stable. The section links directly to authored essays as well as listening
   platforms, and the navigation label is Writing & Podcast.
+- Research overview: `content/home/focus.md` and the `research_focus` widget.
+  Its three cards link to the evergreen topic pages under `content/research/`:
+  world models, memory and continual learning, and model compression. Keep
+  these routes stable because they are the main topical search landing pages.
 - Experience: `content/home/experience.md`. Use `date_label` when exact dates
   are unavailable; only confirmed current roles should have `current = true`.
+  Current and most relevant appointments use `secondary = false`; earlier
+  roles use `secondary = true` and render inside a collapsed details element.
+- Talks no longer occupy a long homepage section. `content/home/talks.md`
+  remains inactive, while `/talk/` and every existing talk URL remain public
+  and linked from Experience.
 - Publications: each `content/publication/<slug>/` folder contains the page
   and its `cite.bib`. Preserve existing slugs when updating a paper.
 - Selected research: six papers have `featured: true`. Recent Publications
@@ -38,18 +47,22 @@ The homepage presents research alongside practical methods, benchmarks, and
 systems. Project descriptions refer to collaborative work; they do not assert
 undocumented product deployments or sole ownership.
 
-The profile's `interests` list also drives the homepage topic labels. World
-models, memory, and compression are the leading themes; continual learning
-remains an explicit research interest. The user confirmed the current
+The profile's `interests` list drives structured research metadata. The hero
+shows the three leading themes—world models, memory, and compression—while
+continual learning remains explicit in the biography, focus map, topic page,
+and structured data. The user confirmed the current
 affiliation as Meta Superintelligence Labs (MSL), the former Assistant Professor
 and Faculty Fellow appointment at NYU, Ph.D. supervision by Tali Tishby, postdoctoral research with
-Yann LeCun, and advisory work with startups and companies.
+Yann LeCun, and collaborative research and guidance across academia and industry.
 
 `identity: true` on a social profile includes it in `Person.sameAs`. Do not use
 this flag for an employer's general website or a podcast's homepage.
 
 Update `lastmod` in `content/_index.md` when the homepage changes meaningfully.
 Preserve actual publication dates; do not refresh them to make papers look new.
+`enableRobotsTXT` and `layouts/robots.txt` expose the sitemap to crawlers. The
+static checker validates the three topic pages, their canonical URLs, unique
+descriptions, `robots.txt`, and preservation of the talk/publication archives.
 
 ## Checks
 

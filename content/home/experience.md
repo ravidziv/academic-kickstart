@@ -17,6 +17,7 @@ date_format = "Jan 2006"
   company = "Meta Superintelligence Labs (MSL)"
   company_url = "https://ai.meta.com/"
   current = true
+  secondary = false
   date_label = "August 2025 – Present"
   description = "Research on world models, memory, compression, and continual learning, with an emphasis on practical capabilities for efficient language models and AI agents."
 
@@ -27,6 +28,7 @@ date_format = "Jan 2006"
   date_start = "2021-09-01"
   date_label = "Former appointment · started September 2021"
   date_end = ""
+  secondary = false
   description = """
   * Led research initiatives in LLMs, focusing on model efficiency, compression techniques, and novel benchmarking frameworks
   * Studied approaches for analyzing LLM representations and information flow
@@ -41,6 +43,7 @@ date_format = "Jan 2006"
   date_start = "2023-01-01"
   date_label = "January 2023 – August 2025"
   date_end = ""
+  secondary = false
   description = """
   * Developed LLM personalization techniques
   * Researched efficient adaptation methods for LLMs
@@ -53,6 +56,7 @@ date_format = "Jan 2006"
   location = "New York, NY"
   date_start = "2020-01-01"
   date_end = "2023-12-31"
+  secondary = true
   description = """
   * Led development of AI algorithms focusing on LLMs and RAG systems
   * Optimized validation processes for automated code validation
@@ -66,6 +70,7 @@ date_format = "Jan 2006"
   location = "Mountain View, CA"
   date_start = "2019-06-01"
   date_end = "2020-05-01"
+  secondary = true
   description = """
   * Developed an information-theoretic framework for infinitely-wide neural networks
   * Created efficient data compression algorithms leveraging information theory
@@ -77,6 +82,7 @@ date_format = "Jan 2006"
   location = "Petah-Tikva, Israel"
   date_start = "2013-02-01"
   date_end = "2019-05-31"
+  secondary = true
   description = """
   * Developed computer vision solutions for GPU defect detection
   * Created ML-based automated testing frameworks
@@ -89,6 +95,7 @@ date_format = "Jan 2006"
   location = "Israel"
   date_start = "2010-01-01"
   date_end = "2013-01-31"
+  secondary = true
   description = """
   * Developed machine learning projects, including OCR system and copyright detection tool
   * Enhanced user experience through creation of editing gadgets

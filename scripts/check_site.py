@@ -150,7 +150,8 @@ def main():
     assert 'logo' not in home.meta['og:image'][0]
     assert target_file(root, home.path, home.meta['og:image'][0]).is_file()
     assert home.meta['og:image:alt'][0].strip()
-    assert {'about', 'experience', 'featured', 'publications', 'talks', 'contact', 'work', 'podcast'} <= home.ids
+    assert {'about', 'focus', 'experience', 'featured', 'publications', 'contact', 'work', 'podcast'} <= home.ids
+    assert 'talks' not in home.ids
     assert all(a.get('aria-label', '').strip() for a in home.profile_links)
     assert not home.hidden_profile_links
     assert len(home.profile_links) == 6
@@ -204,14 +205,15 @@ def main():
     assert 'Previously, I was an Assistant Professor and Faculty Fellow at NYU' in about
     assert 'Center for Data Science' in about
     assert 'Former Assistant Professor and Faculty Fellow at NYU' in person['description']
-    assert 'Former NYU Assistant Professor and Faculty Fellow' in home.meta['description'][0]
+    assert home.meta['description'][0] == 'Ravid Shwartz-Ziv is an AI researcher at Meta MSL working on world models, memory, model compression, and continual learning; formerly faculty at NYU.'
     assert 'Ph.D. with Tali Tishby' in about
     assert 'postdoctoral research with Yann LeCun' in about
-    assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience.' in about
-    assert 'interesting ideas and explore new collaborations' in about
+    assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience' in about
     assert 'Share an idea' in about
-    assert 'I write about AI research and its practical implications' in about
-    assert 'co-host the podcast with Allen Roush' in about
+    assert 'I write about AI research' not in about
+    assert 'co-host the podcast with Allen Roush' not in about
+    assert 'I write about AI research' in home.section_text['podcast']
+    assert 'co-host the podcast with Allen Roush' in home.section_text['podcast']
     assert 'compressing information while preserving what matters for a task' in home.section_text['podcast']
     assert 'Selected writing' in home.section_text['podcast']
     assert 'Writing & Podcast' in home.text
@@ -233,6 +235,31 @@ def main():
     assert 'Learning speech representations' in home.section_text['work']
     assert 'From information theory to working AI systems.' not in home.text
     assert 'Meta FAIR' not in home.text
+    assert 'Three connected directions' in home.section_text['focus']
+    assert 'Understand & predict' in home.section_text['focus']
+    assert 'Retain & adapt' in home.section_text['focus']
+    assert 'Build efficiently' in home.section_text['focus']
+    assert home.sections['focus'] == [
+        '/research/world-models/', '/research/memory-continual-learning/',
+        '/research/model-compression-efficient-ai/',
+    ]
+    assert 'Earlier industry and research roles' in home.section_text['experience']
+    assert '/talk/' in home.sections['experience']
+    assert '#talks' not in home.links
+    for slug, title, phrase in [
+        ('world-models', 'World Models and Predictive Representations', 'On Training in Imagination'),
+        ('memory-continual-learning', 'Memory, Personalization, and Continual Learning', 'Editing a Compressed Memory'),
+        ('model-compression-efficient-ai', 'Model Compression and Efficient AI', 'You Had One Job'),
+    ]:
+        page = next(p for p in pages if p.path == root / 'research' / slug / 'index.html')
+        assert page.h1 == [title], slug
+        assert page.canonical == ['https://www.ravid-shwartz-ziv.com/research/' + slug + '/'], slug
+        assert len(page.meta['description']) == 1 and page.meta['description'][0].strip(), slug
+        assert phrase in page.text, slug
+        assert 'Jan 1, 0001' not in page.text, slug
+    robots = (root / 'robots.txt').read_text()
+    assert 'User-agent: *' in robots and 'Allow: /' in robots
+    assert 'Sitemap: https://www.ravid-shwartz-ziv.com/sitemap.xml' in robots
     for slug in ('layer-by-layer', 'minp', 'minitap', 'situational-judgment-tests', 'chess-conceptual-alignment', 'thinking-beyond-tokens', 'inuit', 's-jepa', 'jepa-neural-tokenizer', 'hp-jepa'):
         page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
         assert len(page.h1) == 1, slug

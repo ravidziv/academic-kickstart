@@ -54,6 +54,24 @@
 .hero-portrait > p { font-size: 0.72rem; margin: 0 0 16px; }
 .research-topics { display: flex; justify-content: center; flex-wrap: wrap; gap: 7px; }
 .research-topics span { font-size: 0.62rem; border: 1px solid rgba(128,128,128,0.25); border-radius: 20px; padding: 5px 10px; }
+.wg-research-focus { padding-top: 58px; padding-bottom: 64px; background: rgba(41, 98, 255, 0.025); }
+.focus-heading { max-width: 760px; margin-bottom: 30px; }
+.focus-heading h2 { font-size: 2rem; margin: 0 0 12px; }
+.focus-heading > p:last-child { font-size: 0.85rem; margin-bottom: 0; }
+.research-focus-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.research-focus-card {
+  position: relative;
+  padding: 25px 25px 23px;
+  border-top: 3px solid #2962ff;
+  background: #fff;
+  box-shadow: 0 5px 24px rgba(20, 35, 70, 0.06);
+}
+.focus-cue { margin: 0 0 11px; font-size: 0.62rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #2962ff; }
+.research-focus-card h3 { margin: 0 0 11px; font-size: 1.02rem; line-height: 1.35; }
+.research-focus-card > p:not(.focus-cue) { min-height: 94px; margin-bottom: 18px; font-size: 0.76rem; line-height: 1.62; }
+.research-focus-card a { font-size: 0.68rem; font-weight: 600; }
+.dark .wg-research-focus { background: rgba(80, 120, 220, 0.06); }
+.dark .research-focus-card { background: rgba(255,255,255,0.035); box-shadow: none; }
 .work-heading { max-width: 760px; margin-bottom: 30px; }
 .work-heading h2 { font-size: 2rem; margin: 0 0 14px; }
 .work-heading > p:last-child { font-size: 0.85rem; }
@@ -66,17 +84,25 @@
 .work-advisory h3 { font-size: 1.25rem; margin: 0 0 12px; }
 .work-advisory p { font-size: 0.85rem; line-height: 1.7; max-width: 900px; }
 .work-advisory p:last-child { margin-bottom: 0; }
+.experience-earlier { margin: 20px 0 0; border-top: 1px solid rgba(128,128,128,0.22); border-bottom: 1px solid rgba(128,128,128,0.22); }
+.experience-earlier summary { cursor: pointer; padding: 17px 2px; font-size: 0.78rem; font-weight: 600; color: #2962ff; }
+.experience-earlier summary:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.experience-earlier-list { padding: 4px 0 13px; }
+.experience-archive-links { margin: 18px 0 0; font-size: 0.7rem; font-weight: 600; }
 .dark .eyebrow { color: #8eb0ff; }
 @media (max-width: 991px) {
   .hero-copy { padding-right: 15px; }
   .hero-portrait { margin-top: 45px; }
   .hero-portrait img { max-width: 230px; }
   .applied-work-grid { grid-template-columns: 1fr; }
+  .research-focus-grid { grid-template-columns: 1fr; }
+  .research-focus-card > p:not(.focus-cue) { min-height: 0; }
   .navbar-brand { font-size: 0.9rem; }
 }
 @media (max-width: 767px) {
   .section-heading h2 { font-size: 1.6rem; }
   .home-section { padding: 55px 0; }
   .research-hero h1 { font-size: 2rem; }
+  .focus-heading h2 { font-size: 1.6rem; }
   .work-heading h2 { font-size: 1.6rem; }
 }

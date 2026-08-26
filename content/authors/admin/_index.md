@@ -64,12 +64,8 @@ user_groups:
 - Researchers
 ---
 
-I'm an AI researcher at [Meta Superintelligence Labs (MSL)](https://ai.meta.com/), working on world models, memory, and compression to build more capable and efficient AI systems.
+I'm an AI researcher at [Meta Superintelligence Labs (MSL)](https://ai.meta.com/), focused on world models, memory, and compression.
 
-My research connects continual learning, representation learning, and AI agents with practical questions: how models understand the world, retain knowledge, and adapt over time.
+My work connects representation learning, continual learning, and AI agents to build systems that predict, retain and update knowledge, adapt over time, and use computation efficiently.
 
-Previously, I was an Assistant Professor and Faculty Fellow at NYU's Center for Data Science. My industry experience spans Wand AI, Intel, and Google AI, alongside research collaborations with teams across academia and industry.
-
-I completed my Ph.D. with Tali Tishby and my postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience. I write about AI research and its practical implications at [The Information Bottleneck](https://www.the-information-bottleneck.com/), where I also co-host the podcast with Allen Roush.
-
-I'm always happy to hear interesting ideas and explore new collaborations.
+Previously, I was an Assistant Professor and Faculty Fellow at NYU's Center for Data Science. I completed my Ph.D. with Tali Tishby and postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience; my industry experience spans Wand AI, Intel, and Google AI.

@@ -1,0 +1,16 @@
+{{ $section := .page }}
+<div class="focus-heading">
+  <p class="eyebrow">Three connected directions</p>
+  <h2>{{ $section.Title }}</h2>
+  <p>{{ $section.Params.subtitle }}</p>
+</div>
+<div class="research-focus-grid">
+  {{ range $section.Params.areas }}
+  <article class="research-focus-card">
+    <p class="focus-cue">{{ .cue }}</p>
+    <h3>{{ .title }}</h3>
+    <p>{{ .description }}</p>
+    <a href="{{ .link }}">Explore this research area <span aria-hidden="true">→</span></a>
+  </article>
+  {{ end }}
+</div>

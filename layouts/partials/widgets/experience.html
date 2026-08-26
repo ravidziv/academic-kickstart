@@ -1,7 +1,4 @@
-{{ $ := .root }}
 {{ $page := .page }}
-
-<!-- Experience widget -->
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
     <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
@@ -10,53 +7,25 @@
   <div class="col-12 col-lg-8">
     {{ with $page.Content }}{{ . }}{{ end }}
 
-    {{ if $page.Params.experience }}
-    {{ $exp_len := len $page.Params.experience }}
-    {{ range $idx, $key := $page.Params.experience }}
-    <div class="row experience">
-      <!-- Timeline -->
-      <div class="col-auto text-center flex-column d-none d-sm-flex">
-        <div class="row h-50">
-          <div class="col {{if gt $idx 0}}border-right{{end}}">&nbsp;</div>
-          <div class="col">&nbsp;</div>
-        </div>
-        <div class="m-2">
-          <span class="badge badge-pill border {{if .current}}exp-fill{{end}}">&nbsp;</span>
-        </div>
-        <div class="row h-50">
-          <div class="col {{if lt $idx (sub $exp_len 1)}}border-right{{end}}">&nbsp;</div>
-          <div class="col">&nbsp;</div>
-        </div>
+    {{ $primary := where $page.Params.experience "secondary" false }}
+    {{ range $idx, $item := $primary }}
+      {{ partial "experience_card" (dict "item" $item "idx" $idx "count" (len $primary) "page" $page) }}
+    {{ end }}
+
+    {{ $earlier := where $page.Params.experience "secondary" true }}
+    {{ if $earlier }}
+    <details class="experience-earlier">
+      <summary>Earlier industry and research roles</summary>
+      <div class="experience-earlier-list">
+      {{ range $idx, $item := $earlier }}
+        {{ partial "experience_card" (dict "item" $item "idx" $idx "count" (len $earlier) "page" $page) }}
+      {{ end }}
       </div>
-      <!-- Content -->
-      <div class="col py-2">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title exp-title text-muted mt-0 mb-1">{{.title | markdownify | emojify}}</h3>
-            <p class="card-title exp-company text-muted my-0">
-              {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
-            </p>
-            <div class="text-muted exp-meta">
-              {{ if .date_label }}{{ .date_label }}{{ else }}
-              {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }} –
-              {{ if .date_end}}
-                {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
-              {{else}}
-                {{ i18n "present" | default "Present" }}
-              {{end}}
-              {{end}}
-              {{with .location}}
-                <span class="middot-divider"></span>
-                <span>{{.}}</span>
-              {{end}}
-            </div>
-            {{with .description}}<div class="card-text">{{. | markdownify | emojify}}</div>{{end}}
-          </div>
-        </div>
-      </div>
-    </div>
-    {{end}}
-    {{end}}
+    </details>
+    {{ end }}
+
+    <p class="experience-archive-links"><a href="/talk/">Talks archive</a> <span aria-hidden="true">·</span> <a href="/publication/">All publications</a></p>
+
     {{ with (site.GetPage "/authors/admin").Params.education }}
     <div class="experience-education">
       <h3>Education</h3>

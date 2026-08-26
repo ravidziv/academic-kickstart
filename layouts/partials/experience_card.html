@@ -1,0 +1,43 @@
+{{ $item := .item }}
+{{ $page := .page }}
+{{ $idx := .idx }}
+{{ $count := .count }}
+<div class="row experience">
+  <div class="col-auto text-center flex-column d-none d-sm-flex">
+    <div class="row h-50">
+      <div class="col {{if gt $idx 0}}border-right{{end}}">&nbsp;</div>
+      <div class="col">&nbsp;</div>
+    </div>
+    <div class="m-2">
+      <span class="badge badge-pill border {{if $item.current}}exp-fill{{end}}">&nbsp;</span>
+    </div>
+    <div class="row h-50">
+      <div class="col {{if lt $idx (sub $count 1)}}border-right{{end}}">&nbsp;</div>
+      <div class="col">&nbsp;</div>
+    </div>
+  </div>
+  <div class="col py-2">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title exp-title text-muted mt-0 mb-1">{{ $item.title | markdownify | emojify }}</h3>
+        <p class="card-title exp-company text-muted my-0">
+          {{- with $item.company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{ $item.company | markdownify | emojify}}{{with $item.company_url}}</a>{{end -}}
+        </p>
+        <div class="text-muted exp-meta">
+          {{ if $item.date_label }}{{ $item.date_label }}{{ else }}
+          {{ (time $item.date_start).Format ($page.Params.date_format | default "January 2006") }} –
+          {{ if $item.date_end }}
+            {{ (time $item.date_end).Format ($page.Params.date_format | default "January 2006") }}
+          {{ else }}
+            {{ i18n "present" | default "Present" }}
+          {{ end }}
+          {{ end }}
+          {{ with $item.location }}
+            <span class="middot-divider"></span><span>{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ with $item.description }}<div class="card-text">{{ . | markdownify | emojify }}</div>{{ end }}
+      </div>
+    </div>
+  </div>
+</div>

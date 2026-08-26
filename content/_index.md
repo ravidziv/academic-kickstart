@@ -1,5 +1,5 @@
 ---
 title: Ravid Shwartz-Ziv
 lastmod: "2026-08-26"
-summary: "Ravid Shwartz-Ziv, AI researcher at Meta MSL working on world models, memory, and compression. Former NYU Assistant Professor and Faculty Fellow, connecting research and practice."
+summary: "Ravid Shwartz-Ziv is an AI researcher at Meta MSL working on world models, memory, model compression, and continual learning; formerly faculty at NYU."
 ---

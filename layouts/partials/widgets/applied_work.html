@@ -1,0 +1,20 @@
+{{ $root := .root }}
+{{ $section := .page }}
+<div class="work-heading">
+  <p class="eyebrow">Theory, methods, systems</p>
+  <h2>{{ $section.Title }}</h2>
+  <p>{{ $section.Params.subtitle }}</p>
+</div>
+<div class="applied-work-grid">
+  {{ range $section.Params.items }}
+  <article class="applied-work-card">
+    <p class="eyebrow">{{ .category }}</p>
+    <h3>{{ .title }}</h3>
+    <p>{{ .description }}</p>
+    <div class="work-links">
+      <a href="{{ .link }}" target="_blank" rel="noopener">{{ .link_label }} <span aria-hidden="true">↗</span></a>
+      <a href="{{ relref $root .paper }}">Read the paper</a>
+    </div>
+  </article>
+  {{ end }}
+</div>

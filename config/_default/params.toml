@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Ravid Shwartz-Ziv is an AI researcher at Meta FAIR studying information theory, representation learning, memory, and efficient language models."
 
 ############################
 ## Site Features
@@ -112,7 +112,7 @@ coordinates = {latitude = "31.7946", longitude = "35.2414°"}
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Ravid99216606"},
+  {icon = "twitter", icon_pack = "fab", name = "Follow on X", link = "https://x.com/ziv_ravid"},
   #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
@@ -124,10 +124,12 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "ravid-shwartz-ziv-social.png"
+sharing_image_alt = "Ravid Shwartz-Ziv, AI researcher at Meta FAIR"
+home_title = "Ravid Shwartz-Ziv | AI Researcher at Meta FAIR"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "Ravid99216606"
+twitter = "ziv_ravid"
 
 ############################
 ## Regional Settings
@@ -147,7 +149,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true}
+main_menu = {align = "r", show_logo = true, text_brand = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true

@@ -29,7 +29,7 @@ abstract: We propose a semi supervised model for detecting anomalies in videos i
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 # links:
 # - name: ""

@@ -31,7 +31,7 @@ tags:
 - Neural Networks
 - Review
 
-featured: true
+featured: false
 
 links:
 url_pdf: https://arxiv.org/pdf/2304.09355

@@ -33,7 +33,7 @@ tags:
 - Reasoning
 - Neural Networks
 
-featured: true
+featured: false
 
 links:
 url_pdf: https://arxiv.org/abs/2411.02344

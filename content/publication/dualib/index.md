@@ -31,7 +31,7 @@ summary: A new framework, which resolves some of the known drawbacks of the Info
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 #name: Custom Link

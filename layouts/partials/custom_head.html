@@ -1,0 +1,23 @@
+{{/* Keep identity markup consistent with the visible primary author profile. */}}
+{{ if or .IsHome .Params.superuser }}
+  {{ $profile := site.GetPage "/authors/admin" }}
+  {{ $personID := printf "%s#person" site.BaseURL }}
+  {{ $identities := slice }}
+  {{ range $profile.Params.social }}
+    {{ if .identity }}{{ $identities = $identities | append .link }}{{ end }}
+  {{ end }}
+  {{ $employers := slice }}
+  {{ range $profile.Params.organizations }}
+    {{ $employers = $employers | append (dict "@type" "Organization" "name" .name "url" .url) }}
+  {{ end }}
+  {{ $person := dict "@type" "Person" "@id" $personID "name" $profile.Title "alternateName" $profile.Params.alternate_names "url" site.BaseURL "description" $profile.Params.bio "jobTitle" $profile.Params.role "worksFor" $employers "sameAs" $identities "knowsAbout" $profile.Params.interests "alumniOf" (dict "@type" "CollegeOrUniversity" "name" "Hebrew University of Jerusalem") }}
+  {{ with ($profile.Resources.ByType "image").GetMatch "*avatar*" }}
+    {{ $person = merge $person (dict "image" .Permalink) }}
+  {{ end }}
+  {{ $page := dict "@type" "ProfilePage" "@id" (printf "%s#profile" .Permalink) "url" .Permalink "name" $profile.Title "mainEntity" (dict "@id" $personID) }}
+  {{ if not .Lastmod.IsZero }}
+    {{ $page = merge $page (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}
+  {{ end }}
+  {{ $schema := dict "@context" "https://schema.org" "@graph" (slice $page $person) }}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{ end }}

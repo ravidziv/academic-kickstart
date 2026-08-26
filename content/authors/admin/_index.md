@@ -1,97 +1,68 @@
 ---
-# Display name
 title: Ravid Shwartz-Ziv
-
-# Username (this should match the folder name)
 authors:
 - admin
-
-# Is this the primary user of the site?
 superuser: true
-
-# Role/position
-# role: Senior Research scientist, Assistant Professor and Faculty Fellow,
-
-# Organizations/Affiliations
+role: AI Researcher
+tagline: From information theory to working AI systems.
+lastmod: "2026-08-26"
 organizations:
-- name: Assistant Professor and Faculty Fellow, Center for Data Science, New York University
-  url: ""
-- name: Senior Research scientist, Wand AI
-  url: ""
-
-# Short bio (displayed in user profile at end of posts)
+- name: FAIR, Meta
+  url: https://ai.meta.com/research/
+bio: AI researcher at Meta FAIR studying information theory, representation learning, memory, and efficient language models. Co-host of The Information Bottleneck.
+alternate_names:
+- Ravid Shwartz Ziv
 interests:
-- Large Language Models (LLMs)
-- Model Efficiency & Compression
-- Information Theory
-- Neural Network Interpretability
-- Self-Supervised Learning
+- Information Theory & Compression
 - Representation Learning
-- Multi-Agent Systems
-- Personalization in AI
-
+- Efficient Language Models
+- Memory & Personalization
+- AI Agents & Evaluation
 education:
   courses:
   - course: Ph.D. in Computational Neuroscience
     institution: Hebrew University of Jerusalem
     year: 2021
-    details: "Dissertation: Information Flow in Deep Neural Networks"
   - course: B.Sc. in Computer Science and Computational Biology
     institution: Hebrew University of Jerusalem
     year: 2014
-    details: "GPA: 91.4/100"
-
-# Social/Academic Networking
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:ravidziv@gmail.com'
+  label: Email
+  link: mailto:ravidziv@gmail.com
 - icon: google-scholar
   icon_pack: ai
+  label: Google Scholar
   link: https://scholar.google.com/citations?user=SqsLFwMAAAAJ
+  identity: true
 - icon: github
   icon_pack: fab
+  label: GitHub
   link: https://github.com/ravidziv
-
-# Email for Gravatar
-email: "ravidziv@gmail.com"
-
-# Highlight the author in author lists? (true/false)
+  identity: true
+- icon: linkedin
+  icon_pack: fab
+  label: LinkedIn
+  link: https://www.linkedin.com/in/ravid-shwartz-ziv-8bb18761/
+  identity: true
+- icon: twitter
+  icon_pack: fab
+  label: X
+  link: https://x.com/ziv_ravid
+  identity: true
+- icon: podcast
+  icon_pack: fas
+  label: The Information Bottleneck podcast
+  link: https://www.the-information-bottleneck.com/
+email: ravidziv@gmail.com
 highlight_name: true
-
-# Organizational groups
 user_groups:
-- Faculty
 - Researchers
 ---
 
-## Biography
+I'm an AI researcher at [Meta FAIR](https://ai.meta.com/research/), working across the foundations of machine learning and the systems that put those ideas to use.
 
-I am an Assistant Professor and Faculty Fellow at NYU's Center for Data Science, where I lead cutting-edge research in artificial intelligence, with a particular focus on Large Language Models (LLMs) and their applications. My work spans theoretical foundations and practical implementations, combining academic rigor with industry impact.
+I study how models learn, represent, and compress information. My work spans representation learning, efficient language models, memory, and AI agents, with an emphasis on connecting scientific understanding to methods we can build and evaluate.
 
-## Research Focus
-
-My research bridges fundamental theoretical understanding with practical applications in AI, particularly focusing on:
-
-* Pioneering novel approaches for analyzing LLM representations and intermediate layer dynamics
-* Developing efficient model adaptation and personalization techniques
-* Advancing information-theoretic frameworks for understanding neural networks
-* Creating innovative benchmarking frameworks for evaluation of AI systems
-
-## Notable Achievements
-
-* Pioneer in applying information theory to neural networks, with seminal work featured in Quanta Magazine and Wired
-* Published extensively in top-tier venues (NeurIPS, ICLR, ICML)
-* Google PhD Fellowship recipient (2018-2021)
-* Best Paper Award, Information Fusion journal (2023)
-* CPAL Rising Star Award, The University of Hong Kong (2023)
-* Moore-Sloan Fellowship, NYU (2021-2022)
-
-## Current Projects
-
-* Leading research initiatives in LLM personalization and adaptation
-* Developing novel approaches for analyzing and improving model efficiency
-* Creating new frameworks for understanding information flow in large-scale models
-* Advancing multi-agent systems and user-centric search implementations
-
-My work combines theoretical insights with practical applications, contributing to both the academic understanding of AI systems and their real-world implementation. Through my dual role in academia and industry, I strive to bridge the gap between theoretical breakthroughs and practical applications in AI.
+My experience includes research and teaching at NYU's Center for Data Science and applied AI work at Wand AI, Intel, and Google AI. I also co-host [The Information Bottleneck](https://www.the-information-bottleneck.com/) with Allen Roush.

@@ -32,7 +32,7 @@ tags:
 - Representation Learning
 - Neural Networks
 
-featured: true
+featured: false
 
 links:
 url_pdf: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/6b1d4c03391b0aa6ddde0b807a78c950-Paper-Conference.pdf'  

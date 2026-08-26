@@ -27,7 +27,7 @@ summary: "We extend the standard LSTM architecture by augmenting it with an addi
  
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 #- name: Custom Link

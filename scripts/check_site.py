@@ -160,6 +160,8 @@ def main():
     assert len(people) == 1
     person = people[0]
     assert person['name'] == 'Ravid Shwartz-Ziv'
+    assert person['@id'] == home.canonical[0] + '#person'
+    assert person['url'] == home.canonical[0]
     assert person['jobTitle'] == 'AI Researcher'
     assert person['worksFor'][0]['name'] == 'FAIR, Meta'
     assert target_file(root, home.path, person['image']).is_file()

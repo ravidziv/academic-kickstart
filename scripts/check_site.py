@@ -186,6 +186,8 @@ def main():
     assert 'Research into practice' in home.text
     assert 'Hebrew University of Jerusalem' in home.text
     about = home.section_text['about']
+    for surface in (about, person['description']):
+        assert 'information theory and computational neuroscience' in surface
     assert 'world models, memory, and compression' in about.lower()
     assert 'continual learning' in about.lower()
     assert 'Previously, I was an Assistant Professor at NYU' in about

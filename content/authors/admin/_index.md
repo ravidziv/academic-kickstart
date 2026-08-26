@@ -9,7 +9,7 @@ lastmod: "2026-08-26"
 organizations:
 - name: Meta Superintelligence Labs (MSL)
   url: https://ai.meta.com/
-bio: AI researcher at Meta MSL working on world models, memory, and compression for capable, efficient AI systems. Former Assistant Professor at NYU and advisor to startups and companies.
+bio: AI researcher at Meta MSL with a background in information theory and computational neuroscience, working on world models, memory, and compression. Former Assistant Professor at NYU and advisor to startups and companies.
 alternate_names:
 - Ravid Shwartz Ziv
 interests:
@@ -66,7 +66,7 @@ user_groups:
 
 I'm an AI researcher at [Meta Superintelligence Labs (MSL)](https://ai.meta.com/), working on world models, memory, and compression to build more capable and efficient AI systems.
 
-My research connects continual learning, representation learning, and AI agents with practical questions: how models understand the world, retain knowledge, and adapt over time.
+My background is in information theory and computational neuroscience. Today, my research connects continual learning, representation learning, and AI agents with practical questions: how models understand the world, retain knowledge, and adapt over time.
 
 Previously, I was an Assistant Professor at NYU's Center for Data Science. My industry experience spans Wand AI, Intel, and Google AI, alongside advising startups and companies.
 

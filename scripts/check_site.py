@@ -219,6 +219,8 @@ def main():
     assert 'co-host the podcast with Allen Roush' not in about
     assert 'I write about AI research' in home.section_text['podcast']
     assert 'co-host the podcast with Allen Roush' in home.section_text['podcast']
+    assert 'Essays and podcast conversations about the ideas and engineering behind AI' in home.section_text['podcast']
+    assert 'the assumptions, tradeoffs, and engineering decisions' in home.section_text['podcast']
     assert 'compressing information while preserving what matters for a task' in home.section_text['podcast']
     assert 'Selected writing' in home.section_text['podcast']
     assert 'Writing & Podcast' in home.text

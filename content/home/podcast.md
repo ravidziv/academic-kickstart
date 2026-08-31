@@ -4,13 +4,15 @@ headless = true
 active = true
 weight = 60
 title = "The Information Bottleneck"
-subtitle = "Writing and conversations about AI research"
+subtitle = "Essays and podcast conversations about the ideas and engineering behind AI"
 
 [design]
   columns = "2"
 +++
 
 On **The Information Bottleneck**, I write about AI research and the details that matter when building systems. I also co-host the podcast with Allen Roush, talking with researchers about their ideas and what they mean in practice.
+
+The goal is to go beyond headlines without sanding away the technical details: to connect papers and experiments with the assumptions, tradeoffs, and engineering decisions that determine whether an idea works in a real system.
 
 The name comes from a simple idea: compressing information while preserving what matters for a task. Our conversations range from memory and reasoning to AI agents and the foundations of learning.
 

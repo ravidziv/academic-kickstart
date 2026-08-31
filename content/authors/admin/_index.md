@@ -1,5 +1,5 @@
 ---
-title: Ravid Shwartz-Ziv
+title: Ravid Shwartz Ziv
 authors:
 - admin
 superuser: true
@@ -11,7 +11,7 @@ organizations:
   url: https://ai.meta.com/
 bio: AI researcher at Meta MSL with a background in information theory and computational neuroscience, working on world models, memory, and compression. Former Assistant Professor and Faculty Fellow at NYU, with experience across Wand AI, Intel, Google AI, and Wikipedia.
 alternate_names:
-- Ravid Shwartz Ziv
+- Ravid Shwartz-Ziv
 interests:
 - World Models
 - Memory & Personalization

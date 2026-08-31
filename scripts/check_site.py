@@ -139,8 +139,8 @@ def main():
     root = args.output.resolve()
     pages = content_pages(root)
     home = next(p for p in pages if p.path == root / 'index.html')
-    assert home.h1 == ['Ravid Shwartz-Ziv'], home.h1
-    assert home.title == 'Ravid Shwartz-Ziv | AI Research'
+    assert home.h1 == ['Ravid Shwartz Ziv'], home.h1
+    assert home.title == 'Ravid Shwartz Ziv | AI Research'
     assert home.canonical == ['https://www.ravid-shwartz-ziv.com/']
     assert len(home.meta['description']) == 1 and home.meta['description'][0].strip()
     assert home.meta['og:description'] == home.meta['description']
@@ -163,7 +163,8 @@ def main():
     people = [n for n in nodes if n.get('@type') == 'Person']
     assert len(people) == 1
     person = people[0]
-    assert person['name'] == 'Ravid Shwartz-Ziv'
+    assert person['name'] == 'Ravid Shwartz Ziv'
+    assert person['alternateName'] == ['Ravid Shwartz-Ziv']
     assert person['@id'] == home.canonical[0] + '#person'
     assert person['url'] == home.canonical[0]
     assert person['jobTitle'] == 'AI Researcher'
@@ -205,7 +206,7 @@ def main():
     assert 'Previously, I was an Assistant Professor and Faculty Fellow at NYU' in about
     assert 'Center for Data Science' in about
     assert 'Former Assistant Professor and Faculty Fellow at NYU' in person['description']
-    assert home.meta['description'][0] == 'Ravid Shwartz-Ziv is an AI researcher at Meta MSL working on world models, memory, model compression, and continual learning; formerly faculty at NYU.'
+    assert home.meta['description'][0] == 'Ravid Shwartz Ziv is an AI researcher at Meta MSL working on world models, memory, model compression, and continual learning; formerly faculty at NYU.'
     assert 'Ph.D. with Tali Tishby' in about
     assert 'postdoctoral research with Yann LeCun' in about
     assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience' in about
@@ -271,7 +272,7 @@ def main():
     for slug, arxiv_id in {'s-jepa': '2606.19398', 'jepa-neural-tokenizer': '2512.07168', 'hp-jepa': '2608.00491'}.items():
         page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
         assert 'https://arxiv.org/abs/' + arxiv_id in page.links, slug
-        assert 'Ravid Shwartz-Ziv' in page.text, slug
+        assert 'Ravid Shwartz Ziv' in page.text, slug
     audited = {
         'dry-sampling': '2608.22761', 'xtc-sampling': '2608.22758',
         'mirage-probes': '2606.13870', 'training-in-imagination': '2605.06732',
@@ -286,7 +287,7 @@ def main():
     }
     for slug, arxiv_id in audited.items():
         page = next(p for p in pages if p.path == root / 'publication' / slug / 'index.html')
-        assert len(page.h1) == 1 and 'Ravid Shwartz-Ziv' in page.text, slug
+        assert len(page.h1) == 1 and 'Ravid Shwartz Ziv' in page.text, slug
         assert page.canonical == ['https://www.ravid-shwartz-ziv.com/publication/' + slug + '/'], slug
         citation = (page.path.parent / 'cite.bib').read_text()
         assert 'Ravid Shwartz-Ziv' in citation, slug

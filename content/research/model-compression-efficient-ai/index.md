@@ -1,6 +1,6 @@
 ---
 title: Model Compression and Efficient AI
-summary: Ravid Shwartz-Ziv's research on model compression, task-aware quantization, efficient representations, and reducing AI memory and computation.
+summary: Ravid Shwartz Ziv's research on model compression, task-aware quantization, efficient representations, and reducing AI memory and computation.
 date: "2026-08-26"
 lastmod: "2026-08-26"
 authors:

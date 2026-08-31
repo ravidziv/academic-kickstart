@@ -1,6 +1,6 @@
 ---
 title: Memory, Personalization, and Continual Learning
-summary: Ravid Shwartz-Ziv's research interests in AI memory, personalization, continual learning, and updating knowledge without destructive interference.
+summary: Ravid Shwartz Ziv's research interests in AI memory, personalization, continual learning, and updating knowledge without destructive interference.
 date: "2026-08-26"
 lastmod: "2026-08-26"
 authors:

@@ -62,8 +62,11 @@ this flag for an employer's general website or a podcast's homepage.
 
 Update `lastmod` in `content/_index.md` when the homepage changes meaningfully.
 Preserve actual publication dates; do not refresh them to make papers look new.
-The homepage search title is `Ravid Shwartz-Ziv | AI Research`; keep employer
+The homepage search title is `Ravid Shwartz Ziv | AI Research`; keep employer
 details in the page copy and structured profile rather than the title tag.
+The preferred display name has no hyphen. Keep `Ravid Shwartz-Ziv` in
+`alternate_names` and in publication metadata where that spelling is part of
+the published citation.
 `enableRobotsTXT` and `layouts/robots.txt` expose the sitemap to crawlers. The
 static checker validates the three topic pages, their canonical URLs, unique
 descriptions, `robots.txt`, and preservation of the talk/publication archives.

@@ -1,6 +1,6 @@
 ---
 title: World Models and Predictive Representations
-summary: Ravid Shwartz-Ziv's research on world models, predictive representations, learned dynamics, and training agents in imagination.
+summary: Ravid Shwartz Ziv's research on world models, predictive representations, learned dynamics, and training agents in imagination.
 date: "2026-08-26"
 lastmod: "2026-08-26"
 authors:

@@ -210,8 +210,8 @@ def main():
     assert 'Ph.D. with Tali Tishby' in about
     assert 'postdoctoral research with Yann LeCun' in about
     assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience' in about
-    assert 'I previously contributed to Wikipedia' in about
-    assert 'Wikipedia' in person['description']
+    assert 'My industry experience spans Wand AI, Intel, Google AI, and Wikipedia.' in about
+    assert 'My industry experience spans Wand AI, Intel, Google AI, and Wikipedia.' in person['description']
     assert 'Share an idea' in about
     assert 'AI research writing & podcast:' in about
     assert home.sections['about'].count('https://www.the-information-bottleneck.com/') >= 2

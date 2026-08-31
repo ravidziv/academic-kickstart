@@ -64,7 +64,7 @@ user_groups:
 - Researchers
 ---
 
-I'm an AI researcher at [Meta Superintelligence Labs (MSL)](https://ai.meta.com/), focused on world models, memory, and compression.
+I'm an AI researcher at [Meta Superintelligence Labs (MSL)](https://ai.meta.com/), focused on world models, memory, and compression. I co-host [The Information Bottleneck](https://www.the-information-bottleneck.com/), a podcast about AI research.
 
 My work connects representation learning, continual learning, and AI agents to build systems that predict, retain and update knowledge, adapt over time, and use computation efficiently.
 

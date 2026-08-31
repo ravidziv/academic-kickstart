@@ -213,7 +213,9 @@ def main():
     assert 'My industry experience spans Wand AI, Intel, Google AI, and Wikipedia.' in about
     assert 'My industry experience spans Wand AI, Intel, Google AI, and Wikipedia.' in person['description']
     assert 'Share an idea' in about
-    assert 'I co-host an AI research podcast:' in about
+    assert 'I co-host' in about
+    assert 'The Information Bottleneck' in about
+    assert 'a podcast about AI research.' in about
     assert home.sections['about'].count('https://www.the-information-bottleneck.com/') >= 2
     assert 'I write about AI research' not in about
     assert 'co-host the podcast with Allen Roush' not in about

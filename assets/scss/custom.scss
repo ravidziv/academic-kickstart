@@ -42,8 +42,10 @@
 .hero-introduction { font-size: 0.9rem; line-height: 1.7; max-width: 670px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 26px 0 12px; }
 .hero-actions .btn { font-size: 0.78rem; padding: 12px 20px; border-radius: 5px; }
-.hero-writing-link { align-self: center; margin-left: 3px; font-size: 0.7rem; font-weight: 600; }
+.hero-writing-note { align-self: center; font-size: 0.68rem; line-height: 1.45; color: rgba(0, 0, 0, 0.68); }
+.hero-writing-link { font-weight: 600; }
 .hero-writing-link:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.dark .hero-writing-note { color: rgba(255, 255, 255, 0.72); }
 .research-hero .network-icon { padding: 0; margin: 0; }
 .research-hero .network-icon li { display: inline-block; margin-right: 18px; }
 .research-hero .network-icon a { font-size: 1.05rem; }

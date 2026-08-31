@@ -2,12 +2,13 @@
 {{ $avatar := ($profile.Resources.ByType "image").GetMatch "*avatar*" }}
 <div class="research-hero row align-items-center">
   <div class="col-lg-8 hero-copy">
-    <p class="eyebrow">{{ $profile.Params.role }} <span aria-hidden="true">·</span> {{ $profile.Params.affiliation_short }}</p>
+    <p class="eyebrow">AI Research</p>
     <h1>{{ $profile.Title }}</h1>
     <div class="hero-introduction">{{ $profile.Content }}</div>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#work">Explore my work</a>
       <a class="btn btn-outline-primary" href="#contact">Share an idea</a>
+      <a class="hero-writing-link" href="https://www.the-information-bottleneck.com/">The Information Bottleneck <span aria-hidden="true">↗</span></a>
     </div>
     {{ partial "social_links" $profile }}
   </div>

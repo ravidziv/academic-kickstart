@@ -140,7 +140,7 @@ def main():
     pages = content_pages(root)
     home = next(p for p in pages if p.path == root / 'index.html')
     assert home.h1 == ['Ravid Shwartz-Ziv'], home.h1
-    assert home.title == 'Ravid Shwartz-Ziv | AI Researcher at Meta MSL'
+    assert home.title == 'Ravid Shwartz-Ziv | AI Research'
     assert home.canonical == ['https://www.ravid-shwartz-ziv.com/']
     assert len(home.meta['description']) == 1 and home.meta['description'][0].strip()
     assert home.meta['og:description'] == home.meta['description']
@@ -209,7 +209,10 @@ def main():
     assert 'Ph.D. with Tali Tishby' in about
     assert 'postdoctoral research with Yann LeCun' in about
     assert 'postdoctoral research with Yann LeCun. My background is in information theory and computational neuroscience' in about
+    assert 'I previously contributed to Wikipedia' in about
+    assert 'Wikipedia' in person['description']
     assert 'Share an idea' in about
+    assert home.sections['about'].count('https://www.the-information-bottleneck.com/') >= 2
     assert 'I write about AI research' not in about
     assert 'co-host the podcast with Allen Roush' not in about
     assert 'I write about AI research' in home.section_text['podcast']

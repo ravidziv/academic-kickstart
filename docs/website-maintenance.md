@@ -16,7 +16,9 @@ overrides and `assets/scss/custom.scss`; the theme submodule is unchanged.
   and industry, without presenting a separate commercial advisory service.
 - Writing and podcast: `content/home/podcast.md`. Keep the `#podcast` anchor
   stable. The section links directly to authored essays as well as listening
-  platforms, and the navigation label is Writing & Podcast.
+  platforms, and the navigation label is Writing & Podcast. A restrained text
+  link in the hero gives The Information Bottleneck visibility without adding
+  another biography paragraph.
 - Research overview: `content/home/focus.md` and the `research_focus` widget.
   Its three cards link to the evergreen topic pages under `content/research/`:
   world models, memory and continual learning, and model compression. Keep
@@ -60,6 +62,8 @@ this flag for an employer's general website or a podcast's homepage.
 
 Update `lastmod` in `content/_index.md` when the homepage changes meaningfully.
 Preserve actual publication dates; do not refresh them to make papers look new.
+The homepage search title is `Ravid Shwartz-Ziv | AI Research`; keep employer
+details in the page copy and structured profile rather than the title tag.
 `enableRobotsTXT` and `layouts/robots.txt` expose the sitemap to crawlers. The
 static checker validates the three topic pages, their canonical URLs, unique
 descriptions, `robots.txt`, and preservation of the talk/publication archives.

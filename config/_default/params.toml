@@ -126,7 +126,7 @@ contact_links = [
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = "ravid-shwartz-ziv-social-v2.png"
 sharing_image_alt = "Ravid Shwartz-Ziv, AI researcher at Meta MSL working on world models, memory, and compression"
-home_title = "Ravid Shwartz-Ziv | AI Researcher at Meta MSL"
+home_title = "Ravid Shwartz-Ziv | AI Research"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "ziv_ravid"
